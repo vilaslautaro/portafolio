@@ -1,0 +1,592 @@
+* {
+    box-sizing: border-box;}
+    body {
+        background: #fff;
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;}
+        .contenedor {
+            width: 95%;
+            max-width:1400px;
+            margin: auto;
+            overflow: hidden;}
+        /* Header */
+        header {
+            background: #202020;
+            padding-bottom: 40px;
+            max-height: 1400px;}
+            header .menus {
+                margin: 20px 0;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;}
+                header .menus .redes a {
+                    padding: 5px 25px;
+                    color: #FFD100;
+                    padding-bottom: 9px;
+                    display: inline-block;
+                    font-size: 1.25em;
+                    text-decoration: none;}
+                    header .menus .redes a:hover {
+                        background: transparent ;
+                        transform: scale(1.03);
+                        transition: 0.3s;}
+                header .menus .menu a {
+                    margin: 0 20px;
+                    color: #FFD100;
+                    padding-bottom: 9px;
+                    display: inline-block;
+                    font-size: 1.25em;
+                    text-decoration: none;
+                    border-bottom: 2px solid transparent;}
+                    header .menus .menu a:hover {
+                        border-bottom: 2px solid #FFD100;}
+            header .contenedor-header {
+                display: flex;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                flex-direction:row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-content: center;}
+                header .contenedor-header .imagen {
+                    width: 100%;
+                    text-align: center;}
+                header .contenedor-header .text {
+                    width: 100%;
+                    text-align: center;}
+                    header .contenedor-header .text .nombre{
+                color: #fff;
+                font-weight: 600;
+                margin-bottom: 30px;
+                font-size: 50px;
+                line-height: 50px;}
+                    header .contenedor-header .text .profesion {
+                        color: #fff;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 20px;
+                        margin-bottom: 30px;}
+                header .contenedor-header .boton-hd {
+                    border-radius: 33px;
+                    border: 2px solid #FFD100; 
+                    padding: 17px 40px 17px 40px;
+                    margin-top: 0px;
+                    background: #FFD100;}
+                    header .contenedor-header .boton-hd:hover {
+                        transform: scale(1.03);
+                        transition: 0.3s;
+                        background: transparent;}
+                    header .contenedor-header .boton-hd a {
+                        color: #fff;
+                        font-size: 20px;
+                        text-shadow: 1px 1px 10px rgb(0, 0, 0);
+                        text-decoration: none;
+                        text-transform: capitalize;}
+            header .whatsapp {
+                position: fixed;
+                z-index: 10;
+                display: flex;
+                right: 30px;
+                bottom: 30px;}
+        /* Main */
+        .main {
+            overflow: hidden;}
+        /* Servicios */
+            .main .servicios {
+                background: #fff;
+                width: 100%;}
+                .main .servicios .titulo {
+                    text-align: center;
+                    font-size: 50px;
+                    margin: 50px 0px;}
+                    .main .servicios .contenedor .cajaserv {
+                        margin: 0px 0px 75px 0px;
+                        width: 100%;
+                        display: flex;
+                        flex-flow: row wrap;
+                        box-sizing: border-box;
+                        text-align: center;
+                        align-content: baseline;
+                        justify-content: center;}
+                        .main .servicios .contenedor .cajaserv img {
+                            margin: 20px 0px 10px 0px;} 
+                        .main .servicios .contenedor .cajaserv h4 {
+                            font-size: 25px;
+                            line-height: 0px;
+                            margin: 0;
+                            margin-bottom: 10px;
+                            color: #fff;} 
+                        .main .servicios .contenedor .cajaserv h5 {
+                            font-size: 20px;
+                            line-height: 0px;
+                            font-weight: 500;
+                            margin: 10px 0;
+                            color: rgba(255,255,255, 0.911);}
+                        .main .servicios .contenedor .cajaserv p {
+                            margin: 0px 0px 20px 0px;
+                            font-size: 15px;
+                            padding: 0px 10px;}
+                        .servicio1, .servicio2, .servicio3, .servicio4 {
+                            width: 40%;
+                            font-size: 18px;
+                            border-top: 10px solid #FFD100;
+                            border-radius: 15px;
+                            margin: 15px;
+                            padding: 0px 20px;
+                            background: #202020;
+                            color: rgba(255,255,255, 0.801)}
+                            .servicio1:hover, .servicio2:hover, .servicio3:hover, .servicio4:hover {
+                                transform: scale(1.03);
+                                transition: 0.3s;}
+        /* Portfolio */
+        .main .portfolio {
+                background: #333533;
+                padding-bottom: 0px;}
+            .main .portfolio .titulo {
+                text-align: center;
+                font-size: 50px;
+                margin-top: 80px;
+                margin-bottom: 80px;
+                color: #fff;}
+            .main .portfolio .cajastrabajo .trabajos {
+                background: #333533;
+                z-index: 9;
+                display: flex;
+                flex-flow: row nowrap;
+                width: 100%;
+                justify-content: space-between;
+                align-items: center;
+                text-align: center;
+                padding: 50px 0px 50px 0px;}
+                .main .portfolio .cajastrabajo .trabajos:last-child {
+                    margin-bottom: 50px;}
+                .main .portfolio .cajastrabajo .trabajos:hover {
+                    border-bottom: 2px solid rgba(255, 255, 255, 0.274);
+                    background: #202020;
+                    transform: scale(1.03);
+                    transition: 0.3s;}
+            .thumb img {
+                border-radius: 33px;}
+            .thumb, .descripcion {
+                width:50%;
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+                margin: 0px 20px;}
+            .nombre {
+                color: #ffd100;
+                margin: 20px 0;
+                font-size: 35px;
+                font-weight: bold;}
+            .categoria {
+                color: rgba(255, 255, 255, 0.85);
+                margin: 20px 0;
+                font-size: 22px;
+                font-weight: 500;}
+            .resumen {
+                color: rgba(255, 255, 255, 0.60);
+                margin: 20px 150px;
+                font-size: 18px;
+                font-weight: 400;
+                 margin: 10px 50px;}
+                .boton-pf {
+                    border-radius: 33px;
+                    border: 2px solid #FFD100; 
+                    padding: 17px 40px 17px 40px;
+                    margin-top: 0px;
+                    cursor: pointer;
+                    background: #FFD100;}
+                    .boton-pf:hover {
+                        transform: scale(1.03);
+                        transition: 0.3s;
+                        background: transparent;}
+                    .boton-pf a {
+                        color: #fff;
+                        font-size: 20px;
+                        text-shadow: 1px 1px 10px rgb(0, 0, 0);
+                        text-decoration: none;
+                        text-transform: capitalize;}
+        /* Footer */
+        /* Formulario */
+        footer .contacto {
+            padding: 60px;
+            margin-bottom: 50px;}
+            footer .contacto .titulo {
+            text-align: center;
+            font-size: 50px;
+            margin-top: 80px;
+            line-height: 30px;
+            margin-bottom: 30px;
+            color: #000;}
+            footer .contacto .subtitulo {
+                text-align: center;
+                font-size: 30px;
+                margin-top: 0;
+                margin-bottom: 30px;
+                color: rgba(0, 0, 0, 0.85);}
+            footer .contacto .descripcion2{
+                text-align: center;
+                font-size: 18px;
+                margin-top: 0;
+                margin-bottom: 30px;
+                color: rgba(0, 0, 0, 0.70);}
+            footer .contacto .formulario {
+                background-color: #202020;
+                border-top: 10px solid #FFD100;
+                padding: 25px 25px;
+                border-radius: 10px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;}
+                footer .contacto .formulario input[type="text"],
+                footer .contacto .formulario input[type="email"],
+                footer .contacto .formulario textarea {
+                    border: 2px solid #333533;
+                    border-radius: 5px;
+                    padding: 15px 20px;
+                    font-size: 20px;
+                    color: #000;}
+                    footer .contacto .formulario input[type="text"]:focus,
+                    footer .contacto .formulario input[type="email"]:focus,
+                    footer .contacto .formulario textarea:focus {
+                        border: 2px solid #FFD100;
+                        outline: none;}
+                    footer .contacto .formulario input[type="text"],
+                    footer .contacto .formulario input[type="email"] {
+                        width: 49%;
+                        margin-bottom: 25px;}
+                    footer .contacto .formulario textarea {
+                        width: 100%;
+                        height: 100px;
+                        min-width: 100%;
+                        max-width: 100%;
+                        min-height: 100px;
+                        max-height: 300px;
+                        margin-bottom: 25px;}
+            footer .contacto .formulario .botonform {
+                color: #fff;
+                margin: auto;
+                font-size: 20px;
+                font-weight: 600;
+                text-shadow: 1px 1px 10px rgb(0, 0, 0);
+                border-radius: 33px;
+                border: 2px solid #ffd100; 
+                padding: 15px 30px 15px 30px;
+                cursor: pointer;
+                background: #FFD100;}
+                footer .contacto .formulario .botonform:hover {
+                    transform: scale(1.03);
+                    transition: 0.3s;
+                    background: transparent;}
+            /* Pie de Pagina */
+            footer .redes-sociales {
+                background: #202020;
+                padding:50px 0px 0px 0px;}
+                footer .redes-sociales .contenedor {
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: center;}
+            footer .logo {
+                margin: auto;
+                text-align: center;}
+            footer .frase {
+                color: #fff;
+                text-align: center;
+                margin: auto;
+                font-weight: 500;
+                line-height: 25px;}
+            footer .redes-sociales a {
+                color: #fff;
+                text-align: center;
+                border-radius: 3px;
+                width: 100px;
+                display: block;
+                padding: 15px 0px;
+                font-size: 2.5em;}
+                footer .redes-sociales .facebook:hover {
+                    transition: 0.3s;
+                    background: #1877f2;}
+                footer .redes-sociales .github:hover {
+                    transition: 0.3s;
+                    background: #6e5494;}
+                footer .redes-sociales .instagram:hover {
+                    transition: 0.3s;
+                    background: #c13584;}
+                footer .redes-sociales .linkedin:hover {
+                    transition: 0.3s;
+                    background: #0077b5;}
+            footer .copyright {
+                color: #fff;   
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-between;
+                margin: 50px 50px 0px 50px;
+                padding-bottom: 10px;}
+/*-----------------Media Queries -----------------------*/
+/* 900px */
+@media screen and (max-width: 900px) { 
+    * {
+        box-sizing: border-box;}    
+    /* header menu nav */
+    header .contenedor .menus {
+        display: flex;
+        flex-flow: row nowrap;
+        align-content: space-between;
+        width: 100%;}    
+        header .contenedor .menus .redes img {
+            width: 25px;}
+            header .contenedor .menus .menu {
+                justify-content: flex-end;}
+        header .contenedor .menus .menu a{
+            font-size: 18px;
+            margin: 0px 15px;}
+    /* header img textos wspp */
+    header .contenedor .contenedor-header .imagen img{
+        width: 150px;
+        margin: auto;}
+    header .contenedor .contenedor-header .text .nombre {
+        font-size: 40px;}
+    header .contenedor .contenedor-header .text .profesion {
+        font-size: 15px;}
+    header .contenedor .contenedor-header .boton-hd a {
+        font-size: 15px;}
+    header .contenedor .whatsapp a > img{
+        width: 50px;}
+    /* servicios */
+        .main .servicios .contenedor {
+            margin: 0px;
+            padding: 0px;
+            display:flex;
+            align-items: center;
+            flex-flow: column wrap;
+            justify-content: center;
+            width: 100%;}
+            .main .servicios .contenedor .cajaserv {
+                width: 80%;
+                margin-bottom: 50px;}
+            .main .servicios .contenedor .cajaserv img {
+                width: 75px;}
+            .main .servicios .contenedor .cajaserv h4 {
+                font-size: 25px;}
+            .main .servicios .contenedor .cajaserv h5 {
+                font-size: 20px;}
+            .main .servicios .contenedor .cajaserv p {
+                margin: 0px 0px 20px 0px;
+                font-size: 15px;
+                padding: 0px 15px;}
+                .servicio1, .servicio2, .servicio3, .servicio4 {
+                    width: 100%;
+                    margin-bottom: 20px;
+                    padding: 0px 30px;}
+    /* portfolio */
+.main .portfolio { 
+    padding-bottom: 0;}
+    .main .portfolio .contenedor {
+            width: 100%;
+            box-sizing: border-box;}
+        .main .portfolio .contenedor .titulo {
+            font-size: 40px;
+            margin: 50px 50px 30px 50px;}
+            .main .portfolio .contenedor .cajastrabajo {
+                margin-bottom: 40px;}
+                .main .portfolio .contenedor .cajastrabajo .trabajos {
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    margin: auto;
+                    padding-bottom: 20px;}
+                        .main .portfolio .cajastrabajo .trabajos .thumb img{
+                            width: 350px;
+                            height: 235px;}
+                        .main .portfolio .cajastrabajo .trabajos .descripcion {
+                            width: 100%;}   
+                                .main .portfolio .cajastrabajo .trabajos .descripcion .nombre {
+                                    font-size: 35px;
+                                    margin: 10px 0px;}
+                                .main .portfolio .cajastrabajo .trabajos .descripcion .categoria {
+                                    font-size: 20px;
+                                    margin: 10px 50px;}
+                                .main .portfolio .cajastrabajo .trabajos .descripcion .resumen {
+                                    font-size: 15px;
+                                    margin: 10px 50px;}
+                                .main .portfolio .cajastrabajo .trabajos .descripcion .boton-pf {
+                                    width: 35%;
+                                    margin: 20px 0;
+                                    font-size: 15px;
+                                    background: #FFd100;
+                                    text-shadow: 1px 1px 5px #000}
+/* footer */
+    footer .contacto {
+        padding: 0px;}
+        footer .contacto .contenedor .titulo {
+            font-size: 40px;}
+        footer .contacto .contenedor .subtitulo {
+            font-size: 20px;}
+/* Pie de pagina */
+    footer .redes-sociales {
+        margin:auto;}
+        footer .redes-sociales .logo img { 
+            width: 75px;}
+        footer .redes-sociales .contenedor a {
+            width: 60px;
+            font-size: 2em}
+        footer .redes-sociales .copyright {
+            margin: 30px auto 0px auto;}
+            footer .redes-sociales .copyright p{
+                display: flex;
+                font-size: 15px;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+                margin: 5px auto;}}
+/* 500px */
+@media screen and (max-width: 500px) { 
+    * {
+        box-sizing: border-box;}   
+    header {
+      padding-bottom: 0px;}
+    /* header menu nav */
+    header .contenedor .menus {
+        display: flex;
+        flex-flow: row nowrap;
+        align-content: space-between;
+        width: 100%;}    
+        header .contenedor .menus .redes {
+            display: none;}
+            header .contenedor .menus .menu {
+                margin:auto;}
+                header .contenedor .menus .menu a{
+                    font-size: 15px;
+                    margin: 10px 5px;}
+    /* header img textos wspp */
+    header .contenedor .contenedor-header {
+        margin-top: 10px;}
+        header .contenedor .contenedor-header .imagen img{
+            width: 100px;
+            margin: auto;}
+        header .contenedor .contenedor-header .text .nombre {
+            font-size: 25px;
+            margin: 30px 0px 25px 0px;
+            line-height: 20px;}
+        header .contenedor .contenedor-header .text .profesion {
+            font-size: 11px;
+            margin: 0px 0px 25px 0px;}
+        header .contenedor .contenedor-header .boton-hd {
+            padding: 8px 18px 12px 18px;}
+            header .contenedor .contenedor-header .boton-hd a {
+                font-size: 12px;
+                margin: auto;}
+            header .contenedor .whatsapp a > img{
+                width: 50px;}
+    /* servicios */
+        .main .servicios .contenedor {
+            margin: 0px;
+            padding: 0px;
+            display:flex;
+            align-items: center;
+            flex-flow: column wrap;
+            justify-content: center;
+            width: 100%;}
+            .main .servicios .contenedor .titulo {
+                font-size: 35px;
+                margin: 50px 50px 30px 50px;}
+            .main .servicios .contenedor .cajaserv {
+                width: 90%;
+                margin-bottom: 50px;}
+                .servicio1, .servicio2, .servicio3, .servicio4 {
+                    width: 90%;
+                    margin-bottom: 20px;
+                    padding: 0px 3px;}
+                .main .servicios .contenedor .cajaserv img {
+                    width: 50px;}
+                .main .servicios .contenedor .cajaserv h4 {
+                    font-size: 20px;}
+                .main .servicios .contenedor .cajaserv h5 {
+                    font-size: 15px;}
+                .main .servicios .contenedor .cajaserv p {
+                    margin: 0px 0px 20px 0px;
+                    font-size: 10px;
+                    padding: 0px 15px;}
+    /* portfolio */
+.main .portfolio {
+    padding-bottom: 0;}
+    .main .portfolio .contenedor {
+            width: 100%;
+            box-sizing: border-box;}
+        .main .portfolio .contenedor .titulo {
+            font-size: 30px;
+            margin: 50px 50px 30px 50px;}
+            .main .portfolio .contenedor .cajastrabajo {
+                margin-bottom: 30px;}
+                .main .portfolio .contenedor .cajastrabajo .trabajos {
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    margin: auto;
+                    padding-bottom: 10px;}
+                .main .portfolio .cajastrabajo .trabajos .thumb img{
+                    width: 245px;
+                    height: 172px;}
+                .main .portfolio .cajastrabajo .trabajos .descripcion {
+                    width: 100%;}   
+                        .main .portfolio .cajastrabajo .trabajos .descripcion .nombre {
+                            font-size: 22px;
+                            margin: 10px 0px;}
+                        .main .portfolio .cajastrabajo .trabajos .descripcion .categoria {
+                            font-size: 13px;
+                            margin: 10px 50px;}
+                        .main .portfolio .cajastrabajo .trabajos .descripcion .resumen {
+                            font-size: 10px;
+                            margin: 10px 50px;}
+                        .main .portfolio .cajastrabajo .trabajos .descripcion .boton-pf {
+                            width: 40%;
+                            margin: 10px 50px;
+                            padding: 10px 5px;
+                            background: #FFd100;}
+                            .main .portfolio .cajastrabajo .trabajos .descripcion .boton-pf a {
+                                font-size: 12px;
+                                text-shadow: 1px 1px 5px #000;}
+/* footer */
+    footer .contacto {
+        padding: 0px;
+        margin-bottom: 50px;}
+        footer .contacto .contenedor .titulo {
+            font-size: 25px;
+            margin: 50px 0px 30px 0px;}
+        footer .contacto .contenedor .subtitulo {
+            font-size: 12px;}
+        footer .contacto .contenedor .formulario input {
+            font-size: 12px;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 15px 10px;}
+        footer .contacto .contenedor .formulario textarea {
+            font-size: 12px;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 15px 10px;}
+        footer .contacto .contenedor .formulario .botonform {
+            font-size: 15px;
+            width: 50%;
+            margin: 10px auto 10px auto;
+            padding: 10px 10px;}
+/* Pie de pagina */
+    footer .redes-sociales {
+        margin:auto;}
+        footer .redes-sociales .logo img { 
+            width: 50px;}
+        footer .redes-sociales .frase p {
+            font-size: 12px;}
+        footer .redes-sociales .contenedor a {
+            width: 50px;
+            font-size: 1em}
+        footer .redes-sociales .copyright {
+            margin: 20px auto 0px auto;}
+            footer .redes-sociales .copyright p{
+                font-size: 14px;
+                display: flex;
+                width:100%;
+                flex-flow: column nowrap;
+                margin: 5px auto;}}

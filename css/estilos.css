@@ -6,7 +6,7 @@
         font-family: "Open Sans", sans-serif;
         font-size: 16px;}
         body.dark{
-            transition: 0.3s all ease;
+            transition: 0.5s all ease;
             background: #000;
         }
         .contenedor {
@@ -22,15 +22,16 @@
                 background: #fff;
                 width: 100%;}
                 body.dark .main .servicios{
-                    transition: 0.3s ease alll;
+                    transition: 0.5s ease alll;
                     background: #202020;
                 }
                 .main .servicios .titulo {
                     text-align: center;
                     font-size: 50px;
+                    padding-bottom: 50px;
                     margin: 50px 0px 0px;}  
                     body.dark .servicios .titulo{
-                        transition: 0.3s ease all;
+                        transition: 0.5s ease all;
                         color: #fff;
                     }
                     .main .servicios .contenedor .cajaserv {
@@ -70,12 +71,12 @@
                             background: #202020;
                             color: rgba(255,255,255, 0.801)}
                             body.dark .servicio1,body.dark .servicio2,body.dark .servicio3,body.dark .servicio4{
-                                transition: 0.3s ease all;
+                                transition: 0.5s ease all;
                                 background: #000;
                             }
                             .servicio1:hover, .servicio2:hover, .servicio3:hover, .servicio4:hover {
                                 transform: scale(1.03);
-                                transition: 0.3s;}
+                                transition: 0.5s;}
         /* Portfolio */
         .main .portfolio {
                 background: #333533;
@@ -149,35 +150,20 @@
                 flex-flow: row wrap;
             }
                 .boton-pf {
-                    border-radius: 33px;
-                    border: 2px solid #FFD100; 
-                    padding: 17px 40px 17px 40px;
-                    margin-top: 0px;
                     margin-right: 10px;
-                    cursor: pointer;
-                    background: #FFD100;}
-                    .boton-pf:hover {
-                        transform: scale(1.03);
-                        transition: 0.3s;
-                        filter:brightness(0.9);}
-                    .boton-pf a {
-                        color: #fff;
-                        font-size: 20px;
-                        text-shadow: 1px 1px 10px rgb(0, 0, 0);
-                        text-decoration: none;
-                        text-transform: capitalize;}
-                .boton-vp {
+                }
+                .boton-vp, .boton-pf {
                     border-radius: 33px;
                     border: 2px solid #FFD100; 
                     padding: 17px 40px 17px 40px;
                     margin-top: 0px;
                     cursor: pointer;
                     background: transparent;}
-                    .boton-vp:hover {
+                    .boton-vp:hover, .boton-pf:hover {
                         transform: scale(1.03);
                         transition: 0.3s;
                         background: #ffd100;}
-                    .boton-vp a {
+                    .boton-vp a, .boton-pf a{
                         color: #fff;
                         font-size: 20px;
                         text-shadow: 1px 1px 10px rgb(0, 0, 0);

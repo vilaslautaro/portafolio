@@ -5,7 +5,7 @@
     padding-bottom: 40px;
     max-height: 1400px;}
     body.dark header{
-        transition: 0.3s ease all;
+        transition: 0.5s ease all;
         background: #000;
     }
     header .menus {
@@ -164,7 +164,7 @@
                     padding: 15px;
                 }
                 body.dark header .contenedor-header .text .cajaTexto .textoSobreMi{
-                    transition: 0.3s ease all;
+                    transition: 0.5s ease all;
                     background: #202020;
                     color: #fff;
                 }
@@ -174,10 +174,10 @@
         header .contenedor-header .contenedorflecha {
             position: absolute;
             color: #fff;
-            font-size: 20px;
+            font-size: 25px;
             height: 200px;
             top: 170px;
-            right: 490px;
+            right: 450px;
             bottom: 0;
         }
             header .contenedor-header .contenedorflecha .acercade{
@@ -202,6 +202,14 @@
             padding: 17px 40px 17px 40px;
             margin-top: 0px;
             background: #FFD100;}
+            body.dark .contenedor-header .boton-hd{
+                background: transparent;
+                transition: 0.5s ease all;
+            }
+            body.dark .contenedor-header .boton-hd:hover{
+                background: #FFD100;
+                transition: 0.5s ease all;
+            }
             header .contenedor-header .boton-hd:hover {
                 transform: scale(1.03);
                 transition: 0.3s;

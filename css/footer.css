@@ -78,9 +78,17 @@
                 padding: 15px 30px 15px 30px;
                 cursor: pointer;
                 background: #FFD100;}
+                body.dark footer .contacto .formulario .botonform{
+                    background: transparent;
+                    transition: 0.5s ease all;
+                }
+                body.dark footer .contacto .formulario .botonform:hover{
+                    background: #ffd100;
+                    transition: 0.3s ease all;
+                }
                 footer .contacto .formulario .botonform:hover {
                     transform: scale(1.03);
-                    transition: 0.3s;
+                    transition: 0.3s ease all;
                     background: transparent;}
             /* Pie de Pagina */
             footer .redes-sociales {

@@ -19,7 +19,7 @@ function creadorUITrabajos(trabajos){
                             <p class="resumen">${trabajo.resumen}</p>
                             <div class="botones">
                                 <div class="boton-pf">
-                                    <a href="${trabajo.pflink}}" class="btnVisitar">${trabajo.botonpf}</a>
+                                    <a href="${trabajo.pflink}" class="btnVisitar">${trabajo.botonpf}</a>
                                 </div>
                                 <div class="boton-vp">
                                     <a href="${trabajo.vplink}">${trabajo.botonvp}</a>
@@ -63,49 +63,6 @@ function localStorageModo(){
 }
 }
 
-// funciones que redireccionan los botones del menu superior a la seccion que corresponden
-let inicio = $('#inicio').offset().top,
-    skills = $('#skills').offset().top,
-    portfolio = $('#portfolio').offset().top,
-    contacto = $('#contacto').offset().top;
-
-$('#btn-inicio').on('click', function (e) {
-    e.preventDefault();
-    $('html, body').animate({
-        scrollTop: inicio + 50
-    },
-        500
-    );
-});
-
-
-$('#btn-skills').on('click', function (e) {
-    e.preventDefault();
-    $('html, body').animate({
-        scrollTop: skills + 50
-    },
-        500
-    );
-});
-
-$('#btn-portfolio').on('click', function (e) {
-    e.preventDefault();
-    $('html, body').animate({
-        scrollTop: portfolio + 80
-    },
-        500
-    );
-});
-
-
-$('#btn-contacto').on('click', function (e) {
-    e.preventDefault();
-    $('html, body').animate({
-        scrollTop: contacto + 50
-    },
-        500
-    );
-});
 
 
 

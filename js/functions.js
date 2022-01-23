@@ -34,9 +34,31 @@ function creadorUITrabajos(trabajos){
 
 // funcion para el boton modo oscuro / claro
 btnMode.addEventListener('click', function(){
+    // agregamos clase dark al body
     document.body.classList.toggle('dark');
+    // agregamos clase active al boton
     btnMode.classList.toggle('active');
-})
+
+    // guardamos la eleccion del usuario en el localStorage
+    if(document.body.classList.contains('dark')){
+        localStorage.setItem('modoOscuro', 'activado');
+    } else {
+        localStorage.setItem('modoOscuro', 'desactivado');
+    }
+});
+
+// segun el valor del localStorage ejecutamos o no el modo oscuro
+if(localStorage.getItem('modoOscuro') === 'true'){
+        // agregamos clase dark al body
+        document.body.classList.add('dark');
+        // agregamos clase active al boton
+        btnMode.classList.add('active');
+} else{
+    // eliminar la clase dark al body
+    document.body.classList.remove('dark');
+    // removemos clase active al boton
+    btnMode.classList.remove('active');
+}
 
 // funciones que redireccionan los botones del menu superior a la seccion que corresponden
 let inicio = $('#inicio').offset().top,

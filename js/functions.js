@@ -28,6 +28,7 @@ function creadorUITrabajos(trabajos){
                         </div>
                     </div>
         `;
+        // agregamos nuestro elemento creado como hijo del contenedorTrabajos en el DOM
         contenedorDOMTrabajos.appendChild(cajasTrabajo);
     }
 }
@@ -108,7 +109,7 @@ $('#btn-contacto').on('click', function (e) {
 
 
 //mostrar sobre mi
-$('#efectoAcerca').mouseover(function (e) {
+$('#efectoAcerca').mouseenter(function (e) {
     e.preventDefault();
     $('#cajaTexto').show();
 });

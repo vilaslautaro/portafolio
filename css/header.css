@@ -139,6 +139,7 @@
                 header .contenedor-header .text .nombre .efectoAcerca{
                     border-bottom: 1px solid #fff;
                     cursor: pointer;
+                    display: inline-block;
                 }
             header .contenedor-header .text .profesion {
                 color: #fff;

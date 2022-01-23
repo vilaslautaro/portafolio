@@ -48,8 +48,9 @@ btnMode.addEventListener('click', function(){
     }
 });
 
-// segun el valor del localStorage ejecutamos o no el modo oscuro
-if(localStorage.getItem('modoOscuro') === 'true'){
+function localStorageModo(){
+    // segun el valor del localStorage ejecutamos o no el modo oscuro
+    if(localStorage.getItem('modoOscuro') === 'activado'){
         // agregamos clase dark al body
         document.body.classList.add('dark');
         // agregamos clase active al boton
@@ -59,6 +60,7 @@ if(localStorage.getItem('modoOscuro') === 'true'){
     document.body.classList.remove('dark');
     // removemos clase active al boton
     btnMode.classList.remove('active');
+}
 }
 
 // funciones que redireccionan los botones del menu superior a la seccion que corresponden

@@ -1,4 +1,6 @@
-$(document).ready(function(){
+$(document).ready(function () {
+
+        localStorageModo();
 
         scroll.forEach((el) => {
                 el.style.opacity = 0;

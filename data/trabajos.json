@@ -1,0 +1,42 @@
+[
+    {
+        "nombre": "Cripto La Plata",
+        "imagen": "/img/portfolios/3.jpg",
+        "categoria": "HTML - CSS - JQUERY - PHP",
+        "resumen": "Desarrolle el sitio web a medida segun lo solicitado por el cliente, y conecte el front-end (utilizando PHP) con la plataforma wordpress para darle facilidad al momento de subir articulos y realizar cambios en los textos.",
+        "botonpf": "Visitar Sitio",
+        "pflink" : "#",
+        "botonvp": "GitHub",
+        "vplink" : "#"
+    },
+    {
+        "nombre": "Banco Digital",
+        "imagen": "/img/portfolios/2.jpg",
+        "categoria": "HTML - CSS - JAVASCRIPT - REACT",
+        "resumen": "Banco Digital, desarrollado en equipo en un proyecto de IdForIdeas",
+        "botonpf": "Visitar Sitio",
+        "pflink" : "#",
+        "botonvp": "GitHub",
+        "vplink" : "#"
+    },
+    {
+        "nombre": "CryptoMarket",
+        "imagen": "/img/portfolios/1.jpg",
+        "categoria": "HTML - CSS - REACT",
+        "resumen": "Ecommerce desarrollado como trabajo final en la certificacion de React.JS realizada en Coderhouse.",
+        "botonpf": "Visitar Sitio",
+        "pflink" : "#",
+        "botonvp": "GitHub",
+        "vplink" : "#"
+    },
+    {
+        "nombre": "AutoClick",
+        "imagen": "/img/portfolios/4.jpg",
+        "categoria": "HTML - CSS - JAVASCRIPT - JQUERY",
+        "resumen": "Ecommerce desarrolado como trabajo final en la certificacion de Javascript realizada en Coderhouse.",
+        "botonpf": "Visitar Sitio",
+        "pflink" : "#",
+        "botonvp": "GitHub",
+        "vplink" : "#"
+    }
+]

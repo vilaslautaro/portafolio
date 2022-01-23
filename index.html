@@ -1,146 +1,140 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../portafolio/img/logo.svg" type="image/x-icon">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <title>Lautaro Developer</title>
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    <link rel="shortcut icon" href="img/logos/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Lautaro Vilas - Portfolio</title>
 </head>
+
 <body>
     <header>
         <div class="contenedor">
-            <div  id="inicio" class="menus">
-                <nav class="redes">
-                    <a href="file:///C:/Users/vilas/Desktop/GENERAL/Cursos/Curso%20Diseno%20Web/Practicas/portafolio/index.html#inicio"><img src="../portafolio/img/logo.svg" alt="" width="50px"></a>
-                    <!-- <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a> -->
+            <div id="inicio" class="menus">
+                <nav class="logo">
+                    <a
+                        href="file:///C:/Users/vilas/Desktop/GENERAL/Cursos/Curso%20Diseno%20Web/Practicas/portafolio/index.html#inicio"><img
+                            src="img/logos/logo.svg" alt="" width="50px"></a>
                 </nav>
-                <nav class="menu">
+                <nav id="menu" class="menu">
                     <a id="btn-inicio" href="">Inicio</a>
-                    <a id="btn-servicios" href="">Servicios</a>
+                    <a id="btn-skills" href="">Skills</a>
                     <a id="btn-portfolio" href="">Portfolio</a>
                     <a id="btn-contacto" href="">Contacto</a>
                 </nav>
+                <div class="rrss">
+                    <a href="https://github.com/vilaslautaro" alt="GitHub" target="_blank" title="GitHub"
+                        class="icono github"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/lautarovilas/" class="icono linkedin" target="_blank"
+                        alt="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <button id="btnMode" class='nav__BtnMode'>
+                        <span><img class='btn__img Sun' src='img/iconos/sun.png'></img></span>
+                        <span><img class='btn__img Moon' src='img/iconos/moon.png'></img></span>
+                    </button>
+                </div>
             </div>
             <div class="contenedor-header" id="inicio">
                 <div class="imagen">
-                    <img src="img/2.png" alt="Lautaro Vilas" width="200px">
+                    <img src="img/perfil.png" alt="Lautaro Vilas" width="200px">
                 </div>
-                <div class="text">
-                    <h1 class="nombre">Hola! Soy Lautaro</h1>
+                <div id="text" class="text">
+                    <h1 id="nombre" class="nombre">Hola! Soy <span id="efectoAcerca" class="efectoAcerca">Lautaro
+                            Vilas</span></h1>
                     <h2 class="profesion">Soy Desarrollador Front-End</h2>
+                    <div class="contenedorflecha" id="flecha">
+                        <p class="acercade">Si quieres saber más sobre mí,<br> pon el mouse aqui!</p>
+                        <img src="img/flecha.png" class="flecha" alt="">
+                        <div id="cajaTexto" class="cajaTexto">
+                            <p class="textoSobreMi">
+                                Durante 4 años fui emprendedor y hace 1 año decidi comenzar en el mundo IT, he estado
+                                desarrollando mis habilidades como front-end developer y logré realizar 4 sitios webs
+                                dinamicos y adaptables.<br>
+                                Actualmente radico en Buenos Aires, Argentina.
+                            </p>
+                        </div>
+                        <div class="cajaResponsiveTexto">
+                            <p class="ResponsiveSobreMi">
+                                Durante 4 años fui emprendedor y hace 1 año decidi comenzar en el mundo IT, he estado
+                                desarrollando mis habilidades como front-end developer y logré realizar 4 sitios webs
+                                dinamicos y adaptables.<br>
+                                Actualmente radico en Buenos Aires, Argentina.
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <div class="boton-hd" id="boton-contacto">
                     <a href="">Contactarme</a>
                 </div>
             </div>
-            <div class="whatsapp">
-                <a href="https://wa.me/message/GCY5TCVP2K2TD1" target="_blank"><img src="../portafolio/img/iconos/whatsapp.png" alt="whatsapp" width="65px"></a>
-            </div>
         </div>
     </header>
     <section class="main">
-        <section  class="servicios" id="servicios">
+        <section class="servicios" id="skills">
             <div class="contenedor">
-                <h3  class="titulo">Servicios</h3>
+                <h3 class="titulo">Skills</h3>
                 <div class="cajaserv">
                     <div class="servicio1">
-                        <img class="imagenserv" src="../portafolio/img/iconos/desarrollo-web.png" alt="desarrollo-web" width="75px">
+                        <img class="imagenserv" src="img/iconos/desarrollo-web.png" alt="desarrollo-web" width="75px">
                         <p>
-                            <span class="bold"><h4>Desarrollo Web</h4></span><br>
-                            <h5 class="categoriaserv">HTML - CSS - JS</h5><br>
-                            <p class="textoserv">Crear una base sólida para un sitio web significa tener la arquitectura HTML y CSS correcta. Si quieres una web, puedo crear el código de front-end de la misma.</p>
+                            <span class="bold">
+                                <h4>Diseño Web</h4>
+                            </span><br>
+                        <h5 class="categoriaserv">Figma</h5><br>
+                        <p class="textoserv">Crear una base sólida para un sitio web significa tener la arquitectura
+                            HTML y CSS correcta. Si quieres una web, puedo crear el código de front-end de la misma.</p>
                         </p>
                     </div>
                     <div class="servicio2">
-                        <img class="imagenserv" src="../portafolio/img/iconos/ecommerce.png" alt="ecommerce" width="75px">
+                        <img class="imagenserv" src="img/iconos/ecommerce.png" alt="ecommerce" width="75px">
                         <p>
-                            <span class="bold"><h4>E-commerce</h4></span><br>
-                            <h5 class="categoriaserv">Pagos, productos y más</h5><br>
-                            <p class="textoserv">Crear una tienda online puede resultar complicado. He aprendido las mejores formas de diseñar tiendas que vendan productos y brinden valor real a los clientes.</p>
+                            <span class="bold">
+                                <h4>Desarrollo Web</h4>
+                            </span><br>
+                        <h5 class="categoriaserv">HTML - CSS - JS</h5><br>
+                        <p class="textoserv">Crear una tienda online puede resultar complicado. He aprendido las mejores
+                            formas de diseñar tiendas que vendan productos y brinden valor real a los clientes.</p>
                         </p>
                     </div>
                     <div class="servicio3">
-                        <img class="imagenserv" src="../portafolio/img/iconos/wordpress.png" alt="ecommerce" width="75px">
-                        <p><span class="bold"><h4>WordPress</h4></span><br>
-                            <h5 class="categoriaserv">Autogestion</h5><br>
-                            <p class="textoserv">Casi todos los sitios web que hago se hacen con WordPress y la razón es simple: simplemente funciona. Puede actualizar fácilmente cada contenido, activar o desactivar secciones y mucho más.</p>
+                        <img class="imagenserv" src="img/iconos/wordpress.png" alt="ecommerce" width="75px">
+                        <p><span class="bold">
+                                <h4>WordPress</h4>
+                            </span><br>
+                        <h5 class="categoriaserv">Autogestion</h5><br>
+                        <p class="textoserv">Casi todos los sitios web que hago se hacen con WordPress y la razón es
+                            simple: simplemente funciona. Puede actualizar fácilmente cada contenido, activar o
+                            desactivar secciones y mucho más.</p>
                         </p>
                     </div>
                     <div class="servicio4">
-                        <img class="imagenserv" src="../portafolio/img/iconos/responsive.png" alt="ecommerce" width="75px">
-                        <p><span class="bold"><h4>Optimización</h4></span><br>
-                            <h5 class="categoriaserv">Adaptable y rapido</h5><br>
-                            <p class="textoserv">Un sitio web rápido y adaptable a moviles es clave para atraer y fidelizar a nuevos clientes. Hay una gran cantidad de técnicas para hacer un sitio web rápido y responsive, las cuales he estado aplicando.</p>
+                        <img class="imagenserv" src="img/iconos/responsive.png" alt="ecommerce" width="75px">
+                        <p><span class="bold">
+                                <h4>Optimización</h4>
+                            </span><br>
+                        <h5 class="categoriaserv">Adaptable y rapido</h5><br>
+                        <p class="textoserv">Un sitio web rápido y adaptable a moviles es clave para atraer y fidelizar
+                            a nuevos clientes. Hay una gran cantidad de técnicas para hacer un sitio web rápido y
+                            responsive, las cuales he estado aplicando.</p>
                         </p>
                     </div>
                 </div>
             </div>
         </section>
         <section class="portfolio" id="portfolio">
-            <div class="contenedor">
-                <h3 id="portfolio" class="titulo">Portfolio</h3>
-                <div class="cajastrabajo">
-                    <div class="trabajos">
-                        <div class="thumb">
-                            <img src="img/portfolios/1.jpg" alt="VISUAL CLUB COMPANY" width="470px" height="315px">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">Agencia Visual Club</p>
-                            <p class="categoria">HTML - CSS - ELEMENTOR</p>
-                            <p class="resumen">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            <div class="boton-pf">
-                                <a href="#">Visitar Sitio</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="trabajos">
-                        <div class="thumb">
-                            <img src="img/portfolios/2.jpg" alt="cripto la plata" width="500px" height="350px">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">Cripto La Plata</p>
-                            <p class="categoria">HTML - CSS - JAVASCRIPT</p>
-                            <p class="resumen">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            <div class="boton-pf">
-                                <a href="#">Visitar Sitio</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="trabajos">
-                        <div class="thumb">
-                            <img src="img/portfolios/3.jpg" alt="enzo Danderffer" width="500px" height="350px">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">Enzo Danderffer</p>
-                            <p class="categoria">HTML - CSS - JAVASCRIPT</p>
-                            <p class="resumen">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            <div class="boton-pf">
-                                <a href="#">Visitar Sitio</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="trabajos">
-                        <div class="thumb">
-                            <img src="img/portfolios/4.jpg" alt="agencia branding" width="500px" height="350px">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">Agencia Branding</p>
-                            <p class="categoria">HTML - CSS - JAVASCRIPT</p>
-                            <p class="resumen">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            <div class="boton-pf">
-                                <a href="#">Visitar Sitio</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <h3 class="titulo">Portfolio</h3>
+            <div class="contenedor" id="contenedorTrabajos">
+                <!-- En esta seccion Generamos la cajaTrabajos y los trabajos dinamicamente -->
             </div>
         </section>
     </section>
@@ -159,26 +153,31 @@
         </section>
         <section class="redes-sociales">
             <div class="logo">
-                <img src="../portafolio/img/logo.png" alt="" width="100px">
+                <img src="img/logos/logo.png" alt="Codifiquemos juntos!" width="100px">
             </div>
             <div class="frase">
                 <p>La vida es un libro que se escribe con acciones,<br> no con deseos, asi que a codificar!</p>
             </div>
             <div class="contenedor">
-                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                <a href="#" class="github"><i class="fa fa-github"></i></a>
-                <a href="https://www.instagram.com/lauchadev/" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/lautarovilas/" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/vilaslautaro" class="github" target="_blank" alt="GitHub" title="GitHub"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/lautarovilas/" target="_blank" class="linkedin" alt="LinkedIn"
+                    title="LinkedIn"><i class="fab fa-linkedin"></i></a>
             </div>
+            <p class="email">vilaslautaro@gmail.com</p>
             <div class="copyright">
                 <p>Hecho a mano por Lautaro Vilas</p>
-                <p>Todos los derechos reservados 2021</p>
+                <p>Todos los derechos reservados 2022</p>
             </div>
         </section>
     </footer>
-
     <!-- Javascript -->
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/efectos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/globales.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/class.js"></script>
+    <script src="js/functions.js"></script>
+
 </body>
+
 </html>

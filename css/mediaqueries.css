@@ -1,0 +1,268 @@
+/*-----------------Media Queries -----------------------*/
+/* 900px */
+@media screen and (max-width: 900px) { 
+    * {
+        box-sizing: border-box;}    
+    /* header menu nav */
+    header .contenedor .menus {
+        display: flex;
+        flex-flow: row nowrap;
+        align-content: space-between;
+        width: 100%;}    
+        header .contenedor .menus .logo img {
+            width: 25px;}
+            header .contenedor .menus .menu {
+                justify-content: flex-end;}
+        header .contenedor .menus .menu a{
+            font-size: 18px;
+            margin: 0px 15px;}
+            header .contenedor .menus .rrss{
+                display: none;
+            }
+    /* header img textos wspp */
+    header .contenedor .contenedor-header .imagen img{
+        width: 150px;
+        margin: auto;}
+    header .contenedor .contenedor-header .text .nombre {
+        font-size: 30px;}
+    header .contenedor .contenedor-header .text .profesion {
+        font-size: 15px;}
+    header .contenedor .contenedor-header .boton-hd a {
+        font-size: 15px;}
+    /* servicios */
+        .main .servicios .contenedor {
+            margin: 0px;
+            padding: 0px;
+            display:flex;
+            align-items: center;
+            flex-flow: column wrap;
+            justify-content: center;
+            width: 100%;}
+            .main .servicios .contenedor .cajaserv {
+                width: 80%;
+                margin-bottom: 50px;}
+            .main .servicios .contenedor .cajaserv img {
+                width: 75px;}
+            .main .servicios .contenedor .cajaserv h4 {
+                font-size: 25px;}
+            .main .servicios .contenedor .cajaserv h5 {
+                font-size: 20px;}
+            .main .servicios .contenedor .cajaserv p {
+                margin: 0px 0px 20px 0px;
+                font-size: 15px;
+                padding: 0px 15px;}
+                .servicio1, .servicio2, .servicio3, .servicio4 {
+                    width: 100%;
+                    margin-bottom: 20px;
+                    padding: 0px 30px;}
+    /* portfolio */
+.main .portfolio { 
+    padding-bottom: 0;}
+    .main .portfolio .contenedor {
+            width: 100%;
+            box-sizing: border-box;}
+        .main .portfolio .contenedor .titulo {
+            font-size: 40px;
+            margin: 50px 50px 30px 50px;}
+            .main .portfolio .contenedor .cajastrabajo {
+                margin-bottom: 40px;}
+                .main .portfolio .contenedor .cajastrabajo .trabajos {
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    margin: auto;
+                    padding-bottom: 20px;}
+                        .main .portfolio .cajastrabajo .trabajos .thumb img{
+                            width: 350px;
+                            height: 235px;}
+                        .main .portfolio .cajastrabajo .trabajos .descripcion {
+                            width: 100%;}   
+                                .main .portfolio .cajastrabajo .trabajos .descripcion .nombre {
+                                    font-size: 35px;
+                                    margin: 10px 0px;}
+                                .main .portfolio .cajastrabajo .trabajos .descripcion .categoria {
+                                    font-size: 20px;
+                                    margin: 10px 50px;}
+                                .main .portfolio .cajastrabajo .trabajos .descripcion .resumen {
+                                    font-size: 15px;
+                                    margin: 10px 50px;}
+                                .main .portfolio .cajastrabajo .trabajos .descripcion .boton-pf {
+                                    width: 35%;
+                                    margin: 20px 0;
+                                    font-size: 15px;
+                                    background: #FFd100;
+                                    text-shadow: 1px 1px 5px #000}
+/* footer */
+    footer .contacto {
+        padding: 0px;}
+        footer .contacto .contenedor .titulo {
+            font-size: 40px;}
+        footer .contacto .contenedor .subtitulo {
+            font-size: 20px;}
+/* Pie de pagina */
+    footer .redes-sociales {
+        margin:auto;}
+        footer .redes-sociales .logo img { 
+            width: 75px;}
+        footer .redes-sociales .contenedor a {
+            width: 60px;
+            font-size: 2em}
+        footer .redes-sociales .copyright {
+            margin: 30px auto 0px auto;}
+            footer .redes-sociales .copyright p{
+                display: flex;
+                font-size: 15px;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+                margin: 5px auto;}}
+/* 500px */
+@media screen and (max-width: 500px) { 
+    * {
+        box-sizing: border-box;}   
+    header {
+      padding-bottom: 0px;}
+    /* header menu nav */
+    header .contenedor .menus {
+        display: flex;
+        flex-flow: row nowrap;
+        align-content: space-between;
+        width: 100%;}    
+        header .contenedor .menus .logo {
+            display: none;}
+            header .contenedor .menus .menu {
+                margin:auto;}
+                header .contenedor .menus .menu a{
+                    font-size: 15px;
+                    margin: 10px 5px;}
+    /* header img textos wspp */
+    header .contenedor .contenedor-header {
+        margin-top: 10px;}
+        header .contenedor .contenedor-header .imagen img{
+            width: 100px;
+            margin: auto;}
+        header .contenedor .contenedor-header .text .nombre {
+            font-size: 20px;
+            margin: 30px 0px 25px 0px;
+            line-height: 20px;}
+        header .contenedor .contenedor-header .text .profesion {
+            font-size: 15px;
+            margin: 0px 0px 25px 0px;}
+        header .contenedor .contenedor-header .boton-hd {
+            padding: 8px 18px 12px 18px;}
+            header .contenedor .contenedor-header .boton-hd a {
+                font-size: 12px;
+                margin: auto;}
+    /* servicios */
+        .main .servicios .contenedor {
+            margin: 0px;
+            padding: 0px;
+            display:flex;
+            align-items: center;
+            flex-flow: column wrap;
+            justify-content: center;
+            width: 100%;}
+            .main .servicios .contenedor .titulo {
+                font-size: 35px;
+                margin: 50px 50px 30px 50px;}
+            .main .servicios .contenedor .cajaserv {
+                width: 90%;
+                margin-bottom: 50px;}
+                .servicio1, .servicio2, .servicio3, .servicio4 {
+                    width: 90%;
+                    margin-bottom: 20px;
+                    padding: 0px 3px;}
+                .main .servicios .contenedor .cajaserv img {
+                    width: 50px;}
+                .main .servicios .contenedor .cajaserv h4 {
+                    font-size: 20px;}
+                .main .servicios .contenedor .cajaserv h5 {
+                    font-size: 15px;}
+                .main .servicios .contenedor .cajaserv p {
+                    margin: 0px 0px 20px 0px;
+                    font-size: 10px;
+                    padding: 0px 15px;}
+    /* portfolio */
+.main .portfolio {
+    padding-bottom: 0;}
+    .main .portfolio .contenedor {
+            width: 100%;
+            box-sizing: border-box;}
+        .main .portfolio .contenedor .titulo {
+            font-size: 30px;
+            margin: 50px 50px 30px 50px;}
+            .main .portfolio .contenedor .cajastrabajo {
+                margin-bottom: 30px;}
+                .main .portfolio .contenedor .cajastrabajo .trabajos {
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    margin: auto;
+                    padding-bottom: 10px;}
+                .main .portfolio .cajastrabajo .trabajos .thumb img{
+                    width: 245px;
+                    height: 172px;}
+                .main .portfolio .cajastrabajo .trabajos .descripcion {
+                    width: 100%;}   
+                        .main .portfolio .cajastrabajo .trabajos .descripcion .nombre {
+                            font-size: 22px;
+                            margin: 10px 0px;}
+                        .main .portfolio .cajastrabajo .trabajos .descripcion .categoria {
+                            font-size: 13px;
+                            margin: 10px 50px;}
+                        .main .portfolio .cajastrabajo .trabajos .descripcion .resumen {
+                            font-size: 10px;
+                            margin: 10px 50px;}
+                        .main .portfolio .cajastrabajo .trabajos .descripcion .boton-pf {
+                            width: 40%;
+                            margin: 10px 50px;
+                            padding: 10px 5px;
+                            background: #FFd100;}
+                            .main .portfolio .cajastrabajo .trabajos .descripcion .boton-pf a {
+                                font-size: 12px;
+                                text-shadow: 1px 1px 5px #000;}
+/* footer */
+    footer .contacto {
+        padding: 0px;
+        margin-bottom: 50px;}
+        footer .contacto .contenedor .titulo {
+            font-size: 25px;
+            margin: 50px 0px 30px 0px;}
+        footer .contacto .contenedor .subtitulo {
+            font-size: 12px;}
+        footer .contacto .contenedor .formulario input {
+            font-size: 12px;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 15px 10px;}
+        footer .contacto .contenedor .formulario textarea {
+            font-size: 12px;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 15px 10px;}
+        footer .contacto .contenedor .formulario .botonform {
+            font-size: 15px;
+            width: 50%;
+            margin: 10px auto 10px auto;
+            padding: 10px 10px;}
+/* Pie de pagina */
+    footer .redes-sociales {
+        margin:auto;}
+        footer .redes-sociales .logo img { 
+            width: 50px;}
+        footer .redes-sociales .frase p {
+            font-size: 14px;}
+        footer .redes-sociales .contenedor a {
+            width: 50px;
+            font-size: 1.3em}
+        footer .redes-sociales .email{
+            font-size: 15px;
+        }
+        footer .redes-sociales .copyright {
+            margin: 40px auto 0px auto;}
+            footer .redes-sociales .copyright p{
+                font-size: 11px;
+                display: flex;
+                width:100%;
+                flex-flow: column nowrap;
+                margin: 5px auto;}}

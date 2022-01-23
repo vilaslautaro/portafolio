@@ -1,0 +1,214 @@
+
+ /* Header */
+ header {
+    background: #202020;
+    padding-bottom: 40px;
+    max-height: 1400px;}
+    body.dark header{
+        transition: 0.3s ease all;
+        background: #000;
+    }
+    header .menus {
+        margin: 20px 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;}
+        header .menus .logo a {
+            padding: 5px 25px;
+            color: #FFD100;
+            padding-bottom: 9px;
+            display: inline-block;
+            font-size: 1.25em;
+            text-decoration: none;}
+            header .menus .logo a:hover {
+                background: transparent ;
+                transform: scale(1.03);
+                transition: 0.3s;}
+        header .menus .menu{
+            display: none;
+        }
+            header .menus .menu a {
+                margin: 0 20px;
+                color: #FFD100;
+                padding-bottom: 9px;
+                display: inline-block;
+                font-size: 1.25em;
+                text-decoration: none;
+                border-bottom: 2px solid transparent;}
+                header .menus .menu a:hover {
+                    border-bottom: 2px solid #FFD100;}
+        header .menus .rrss{
+            display: flex;
+            flex-flow: row wrap;
+        }
+        header .menus .rrss .icono{
+            padding: 5px 10px;
+            color: #FFD100;
+            margin-bottom: 9px;
+            display: inline-block;
+            font-size: 1.60em;
+            text-decoration: none;
+        }
+            header .menus .rrss .icono:hover{
+                color: #fff;
+                transition: 0.3s;
+                border-radius: 10px;
+            }
+                header .menus .rrss .github:hover {
+                    background: #6e5494;}
+                header .menus .rrss .linkedin:hover {
+                    background: #0077b5;}
+
+                    .nav__BtnMode{
+                        background: #343d5b;
+                        border: none;
+                        border-radius: 1000px;
+                        position: relative;
+                        display: flex;
+                        margin: 0 0 9px 10px;
+                        height: 30px;
+                        align-items: center;
+                        align-self: center;
+                        justify-content: center;
+                        cursor: pointer;
+                        outline: none;
+                    }
+        
+                        .nav__BtnMode::after{
+                            content: "";
+                            display: block;
+                            width: 30px;
+                            height: 30px;
+                            position: absolute;
+                            background: #f1f1f1;
+                            top: 0;
+                            left: 0;
+                            right: unset;
+                            border-radius: 100px;
+                            transition: 0.3s ease all;
+                            /* box-shadow: 0px 0px 2px 2px #202020; */
+                        }
+        
+                        .nav__BtnMode.active{
+                            background: #FFD100;
+                            color: #000;  
+                        }
+        
+                            .nav__BtnMode.active::after{
+                                right: 0;
+                                left: unset;               
+                            }
+        
+                        .btn__img{
+                            width: 20px;
+                            height: 20px;
+                            line-height: 20px;
+                            display: block;
+                            background: none;
+                        }
+        
+                            .Sun{
+                                margin-right: 5px;
+                            }
+                            .Moon{
+                                margin-left: 5px;
+                            }
+    header .contenedor-header {
+        display: flex;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;}
+        header .contenedor-header .imagen {
+            width: 100%;
+            text-align: center;}
+        header .contenedor-header .text {
+            width: 100%;
+            text-align: center;}
+            header .contenedor-header .text .nombre{
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 30px;
+        font-size: 50px;
+        line-height: 50px;}
+                header .contenedor-header .text .nombre .efectoAcerca{
+                    border-bottom: 1px solid #fff;
+                    cursor: pointer;
+                }
+            header .contenedor-header .text .profesion {
+                color: #fff;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 20px;
+                margin-bottom: 30px;}
+                header .contenedor-header .text .cajaTexto{
+                    display: none;
+                    position: absolute;
+                    right: -100px;
+                    top: 220px;
+                }
+                header .contenedor-header .text .cajaTexto .textoSobreMi{
+                    background: #fff;
+                    color: #000;
+                    border-radius: 20px;
+                    width: 700px;
+                    line-height: 30px;
+                    font-weight: 500;
+                    font-size: 20px;
+                    padding: 15px;
+                }
+                body.dark header .contenedor-header .text .cajaTexto .textoSobreMi{
+                    transition: 0.3s ease all;
+                    background: #202020;
+                    color: #fff;
+                }
+                header .contenedor-header .text .cajaResponsiveTexto {
+                    display: none;
+                }
+        header .contenedor-header .contenedorflecha {
+            position: absolute;
+            color: #fff;
+            font-size: 20px;
+            height: 200px;
+            top: 170px;
+            right: 490px;
+            bottom: 0;
+        }
+            header .contenedor-header .contenedorflecha .acercade{
+                padding: 0;
+                margin: 0;
+            }
+            header .contenedor-header .contenedorflecha .flecha{
+                color: #fff;
+                width: 150px;
+                height: 150px;
+                margin: 0;
+                padding: 0;
+                -moz-transform: rotate(-150deg);
+                -o-transform: rotate(-150deg);
+                -webkit-transform: rotate(-150deg);
+                transform: rotate(-150deg);
+            }
+        header .contenedor-header .boton-hd {
+            border-radius: 33px;
+            cursor: pointer;
+            border: 2px solid #FFD100; 
+            padding: 17px 40px 17px 40px;
+            margin-top: 0px;
+            background: #FFD100;}
+            header .contenedor-header .boton-hd:hover {
+                transform: scale(1.03);
+                transition: 0.3s;
+                background: transparent;}
+            header .contenedor-header .boton-hd a {
+                color: #fff;
+                font-size: 20px;
+                text-shadow: 1px 1px 10px rgb(0, 0, 0);
+                text-decoration: none;
+                text-transform: capitalize;
+            }

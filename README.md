@@ -1,5 +1,5 @@
 # Portfolio de Lautaro Vilas
 ***
-## Sitio web: vilaslautaro.github.io
+## vilaslautaro.github.io
 ## Desarrollador Front-end, especializado en:
 #### HTML, CSS, SASS, GIT, JAVASCRIPT, JQUERY, REACT, y librerias CSS, como Bootstrap.

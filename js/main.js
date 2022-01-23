@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-        localStorageModo();
+        
 
 
 
@@ -40,6 +40,15 @@ $('html, body').animate({
 
 
 $('#btn-contacto').on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({
+                scrollTop: contacto + 50
+},
+500
+);
+});
+
+$('#boton-contacto').on('click', function (e) {
 e.preventDefault();
 $('html, body').animate({
     scrollTop: contacto + 50
@@ -47,7 +56,6 @@ $('html, body').animate({
     500
 );
 });
-
         // --------EFECTOS----------
         // efectos menu
         $('#menu').fadeIn(3000);

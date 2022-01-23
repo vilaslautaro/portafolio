@@ -1,8 +1,8 @@
 // esta funcion es la que crea dinamicamente cada trabajo en el DOM
 // (usamos JS Vanilla para realizar esta funcion)
-function creadorUITrabajos(trabajos){
+function creadorUITrabajos(trabajos) {
     contenedorDOMTrabajos.innerHTML = "";
-    for (let trabajo of trabajos){
+    for (let trabajo of trabajos) {
         // creamos el div
         let cajasTrabajo = document.createElement('div');
         // le agregamos una clase a nuestro div recien creado
@@ -34,34 +34,43 @@ function creadorUITrabajos(trabajos){
 }
 
 // funcion para el boton modo oscuro / claro
-btnMode.addEventListener('click', function(){
+btnMode.addEventListener('click', function () {
     // agregamos clase dark al body
     document.body.classList.toggle('dark');
     // agregamos clase active al boton
     btnMode.classList.toggle('active');
+    // cambiamos a la imagen de fondo gris
+    $('#imgPerfil').attr("src", "img/perfil2.png");
 
     // guardamos la eleccion del usuario en el localStorage
-    if(document.body.classList.contains('dark')){
+    if (document.body.classList.contains('dark')) {
         localStorage.setItem('modoOscuro', 'activado');
     } else {
         localStorage.setItem('modoOscuro', 'desactivado');
+        // regresamos a la imagen original
+        $('#imgPerfil').attr("src", "img/perfil.png");
     }
 });
 
-function localStorageModo(){
+function localStorageModo() {
     // segun el valor del localStorage ejecutamos o no el modo oscuro
-    if(localStorage.getItem('modoOscuro') === 'activado'){
+    if (localStorage.getItem('modoOscuro') === 'activado') {
         // agregamos clase dark al body
         document.body.classList.add('dark');
+        // cambiamos a la imagen de fondo gris
+        $('#imgPerfil').attr("src", "img/perfil2.png");
         // agregamos clase active al boton
         btnMode.classList.add('active');
-} else{
-    // eliminar la clase dark al body
-    document.body.classList.remove('dark');
-    // removemos clase active al boton
-    btnMode.classList.remove('active');
+    } else {
+        // eliminar la clase dark al body
+        document.body.classList.remove('dark');
+        // regresamos a la imagen original
+        $('#imgPerfil').attr("src", "img/perfil.png");
+        // removemos clase active al boton
+        btnMode.classList.remove('active');
+    }
 }
-}
+localStorageModo();
 
 
 

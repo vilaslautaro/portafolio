@@ -36,11 +36,24 @@
                 padding: 25px 25px;
                 border-radius: 10px;
                 display: flex;
-                flex-wrap: wrap;
+                flex-flow: row wrap;
                 justify-content: space-between;}
                 body.dark .contacto .formulario{
                     transition: 0.3s ease all;
                     background: #000;
+                }
+                footer .contacto .formulario .error{
+                    color: #fff;
+                    width: 100%;
+                    margin-bottom: 25px;
+                }
+                
+                input.invalid{
+                    border-color: rgb(255, 0, 0) !important;
+                }
+                  
+                textarea.invalid{
+                    border-color: rgb(255, 1, 1) !important;
                 }
                 footer .contacto .formulario input[type="text"],
                 footer .contacto .formulario input[type="email"],
@@ -57,8 +70,8 @@
                         outline: none;}
                     footer .contacto .formulario input[type="text"],
                     footer .contacto .formulario input[type="email"] {
-                        width: 49%;
-                        margin-bottom: 25px;}
+                        width: 100%;
+                        }
                     footer .contacto .formulario textarea {
                         width: 100%;
                         height: 100px;
@@ -66,7 +79,7 @@
                         max-width: 100%;
                         min-height: 100px;
                         max-height: 300px;
-                        margin-bottom: 25px;}
+                        }
             footer .contacto .formulario .botonform {
                 color: #fff;
                 margin: auto;

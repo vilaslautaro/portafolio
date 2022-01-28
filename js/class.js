@@ -22,3 +22,27 @@ $.get("data/trabajos.json", function(respuesta, estado){
         console.log('Error en la carga de los trabajos');
     }
 });
+
+
+// class skills
+class Skills{
+    constructor(id, titulo, icono, categoria, texto){
+        this.id = id;
+        this.titulo = titulo;
+        this.icono = icono;
+        this.categoria = categoria;
+        this.texto = texto;
+    }
+}
+
+$.get("data/skills.json", function(respuesta, estado){
+    if(estado == 'success'){
+        for (let skill of respuesta){
+            skills.push(new Skills(skill.id, skill.titulo, skill.icono, skill.categoria, skill.texto));
+        }
+        creadorUISkills(skills);
+    } else{
+        console.log('Error en la carga de las skills');
+    }
+});
+

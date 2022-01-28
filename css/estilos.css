@@ -28,21 +28,43 @@
                 .main .servicios .titulo {
                     text-align: center;
                     font-size: 50px;
-                    padding-bottom: 50px;
+                    padding: 50px 0;
                     margin: 50px 0px 0px;}  
                     body.dark .servicios .titulo{
                         transition: 0.5s ease all;
                         color: #fff;
                     }
+                    .main .servicios .contenedor{
+                        display: grid;
+                        width: 100%;
+                        grid-template-columns: 50% 50%;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
                     .main .servicios .contenedor .cajaserv {
                         margin: 0px 0px 75px 0px;
-                        width: 100%;
                         display: flex;
-                        flex-flow: row wrap;
                         box-sizing: border-box;
                         text-align: center;
-                        align-content: baseline;
-                        justify-content: center;}
+                        justify-content: center;
+                    } 
+                    .servicio {
+                        width: 90%;
+                        font-size: 18px;
+                        border-top: 10px solid #FFD100;
+                        border-radius: 15px;
+                        margin: 15px;
+                        padding: 0px 20px;
+                        background: #202020;
+                        color: rgba(255,255,255, 0.801)}
+                        .servicio:hover {
+                            transform: scale(1.03);
+                            transition: 0.5s;}
+                        body.dark .servicio{
+                            transition: 0.5s ease all;
+                            background: #000;
+                        }
+                        
                         .main .servicios .contenedor .cajaserv img {
                             margin: 20px 0px 10px 0px;} 
                         .main .servicios .contenedor .cajaserv h4 {
@@ -61,22 +83,6 @@
                             margin: 0px 0px 20px 0px;
                             font-size: 15px;
                             padding: 0px 10px;}
-                        .servicio1, .servicio2, .servicio3, .servicio4 {
-                            width: 40%;
-                            font-size: 18px;
-                            border-top: 10px solid #FFD100;
-                            border-radius: 15px;
-                            margin: 15px;
-                            padding: 0px 20px;
-                            background: #202020;
-                            color: rgba(255,255,255, 0.801)}
-                            body.dark .servicio1,body.dark .servicio2,body.dark .servicio3,body.dark .servicio4{
-                                transition: 0.5s ease all;
-                                background: #000;
-                            }
-                            .servicio1:hover, .servicio2:hover, .servicio3:hover, .servicio4:hover {
-                                transform: scale(1.03);
-                                transition: 0.5s;}
         /* Portfolio */
         .main .portfolio {
                 background: #333533;

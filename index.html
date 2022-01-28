@@ -23,15 +23,16 @@
         <div class="contenedor">
             <div id="inicio" class="menus">
                 <nav class="logo">
-                    <a href="file:///C:/Users/vilas/Desktop/GENERAL/Cursos/Curso%20Diseno%20Web/Practicas/portafolio/index.html#inicio">
+                    <a
+                        href="file:///C:/Users/vilas/Desktop/GENERAL/Cursos/Curso%20Diseno%20Web/Practicas/portafolio/index.html#inicio">
                         <img src="img/logos/logo.svg" alt="" width="50px">
                     </a>
                 </nav>
                 <nav id="menu" class="menu">
-                    <a id="btn-inicio" href="">Inicio</a>
-                    <a id="btn-skills" href="">Skills</a>
-                    <a id="btn-portfolio" href="">Portfolio</a>
-                    <a id="btn-contacto" href="">Contacto</a>
+                    <a href="#inicio">Inicio</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contacto">Contacto</a>
                 </nav>
                 <div class="rrss">
                     <a href="https://github.com/vilaslautaro" alt="GitHub" target="_blank" title="GitHub"
@@ -49,8 +50,10 @@
                     <img src="img/perfil.png" id="imgPerfil" alt="Lautaro Vilas" width="200px">
                 </div>
                 <div id="text" class="text">
-                    <h1 id="nombre" class="nombre">Hola! Soy <div class="efectoAcerca" id="efectoAcerca" class="efectoAcerca">Lautaro
-                            Vilas</div></h1>
+                    <h1 id="nombre" class="nombre">Hola! Soy <div class="efectoAcerca" id="efectoAcerca"
+                            class="efectoAcerca">Lautaro
+                            Vilas</div>
+                    </h1>
                     <h2 class="profesion">Soy Desarrollador Front-End</h2>
                     <div class="contenedorflecha" id="flecha">
                         <p class="acercade">Si quieres saber más sobre mí,<br> pon el mouse aqui!</p>
@@ -73,87 +76,47 @@
                         </div>
                     </div>
                 </div>
-                <div class="boton-hd" id="boton-contacto">
-                    <a href="">Contactarme</a>
+                <div class="boton-hd">
+                    <a href="#contacto">Contactarme</a>
                 </div>
             </div>
         </div>
     </header>
     <section class="main">
         <section class="servicios" id="skills">
-            <div class="contenedor">
-                <h3 class="titulo">Skills</h3>
-                <div class="cajaserv">
-                    <div class="servicio1">
-                        <img class="imagenserv" src="img/iconos/desarrollo-web.png" alt="desarrollo-web" width="75px">
-                        <p>
-                            <span class="bold">
-                                <h4>Diseño Web</h4>
-                            </span><br>
-                        <h5 class="categoriaserv">Figma</h5><br>
-                        <p class="textoserv">Crear una base sólida para un sitio web significa tener la arquitectura
-                            HTML y CSS correcta. Si quieres una web, puedo crear el código de front-end de la misma.</p>
-                        </p>
-                    </div>
-                    <div class="servicio2">
-                        <img class="imagenserv" src="img/iconos/ecommerce.png" alt="ecommerce" width="75px">
-                        <p>
-                            <span class="bold">
-                                <h4>Desarrollo Web</h4>
-                            </span><br>
-                        <h5 class="categoriaserv">HTML - CSS - JS</h5><br>
-                        <p class="textoserv">Crear una tienda online puede resultar complicado. He aprendido las mejores
-                            formas de diseñar tiendas que vendan productos y brinden valor real a los clientes.</p>
-                        </p>
-                    </div>
-                    <div class="servicio3">
-                        <img class="imagenserv" src="img/iconos/wordpress.png" alt="ecommerce" width="75px">
-                        <p><span class="bold">
-                                <h4>WordPress</h4>
-                            </span><br>
-                        <h5 class="categoriaserv">Autogestion</h5><br>
-                        <p class="textoserv">Casi todos los sitios web que hago se hacen con WordPress y la razón es
-                            simple: simplemente funciona. Puede actualizar fácilmente cada contenido, activar o
-                            desactivar secciones y mucho más.</p>
-                        </p>
-                    </div>
-                    <div class="servicio4">
-                        <img class="imagenserv" src="img/iconos/responsive.png" alt="ecommerce" width="75px">
-                        <p><span class="bold">
-                                <h4>Optimización</h4>
-                            </span><br>
-                        <h5 class="categoriaserv">Adaptable y rapido</h5><br>
-                        <p class="textoserv">Un sitio web rápido y adaptable a moviles es clave para atraer y fidelizar
-                            a nuevos clientes. Hay una gran cantidad de técnicas para hacer un sitio web rápido y
-                            responsive, las cuales he estado aplicando.</p>
-                        </p>
-                    </div>
-                </div>
+            <h3 class="titulo">Skills</h3>
+            <div class="contenedor" id="contenedorSkills">
+                <!-- En esta seccion generamos las skills dinamicamente -->
             </div>
         </section>
-        <section class="portfolio" id="portfolio">
-            <h3 class="titulo">Portfolio</h3>
+        <section class="portfolio">
+            <h3 class="titulo" id="portfolio">Portfolio</h3>
             <div class="contenedor" id="contenedorTrabajos">
                 <!-- En esta seccion Generamos la cajaTrabajos y los trabajos dinamicamente -->
             </div>
         </section>
     </section>
     <footer>
-        <section id="contacto" class="contacto">
+        <section class="contacto" id="contacto">
             <div class="contenedor">
                 <h3 class="titulo"><span>Contáctame</span></h3>
                 <h4 class="subtitulo">Estoy emocionado por conocer tu proyecto.</h4>
-                <form class="formulario" action="">
-                    <input type="text" name="nombre" placeholder="Nombre" required>
-                    <input type="email" name="correo" placeholder="Correo" required>
-                    <textarea name="mensaje" placeholder="Cuentame en que puedo ayudarte" required></textarea>
-                    <input class="botonform" type="submit" value="Enviar">
+                <h5 id="resultadoEnvioForm"></h5>
+                <form class="formulario" id="form" novalidate>
+                    <input type="text" id="form__name" minlength="4" name="nombre" placeholder="Nombre" required>
+                    <span class="error" id="name__Error"></span>
+                    <input type="email" minlength="14" id="form__email" name="correo" placeholder="Correo" required>
+                    <span class="error" id="email__Error"></span>
+                    <textarea name="mensaje" minlength="5" id="form__mensaje"
+                        placeholder="Cuentame en que puedo ayudarte" required></textarea>
+                    <span class="error" id="mensaje__Error"></span>
+                    <input class="botonform" id="form__button" type="submit" value="Enviar">
                 </form>
             </div>
         </section>
         <section class="redes-sociales">
             <div class="logo">
-                <img src="img/logos/logo.png" alt="Codifiquemos juntos!" width="100px">
+                <img src="img/logos/logo.png" title="Codifiquemos juntos!" width="100px">
             </div>
             <div class="frase">
                 <p>La vida es un libro que se escribe con acciones,<br> no con deseos, asi que a codificar!</p>
@@ -172,10 +135,35 @@
         </section>
     </footer>
     <!-- Javascript -->
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.5/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.5/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyDuUMI0x6v-NP1KbxGc5QMI3ZUEtigJY44",
+            authDomain: "form-portfolio-838cc.firebaseapp.com",
+            databaseURL: "https://form-portfolio-838cc-default-rtdb.firebaseio.com",
+            projectId: "form-portfolio-838cc",
+            storageBucket: "form-portfolio-838cc.appspot.com",
+            messagingSenderId: "256737624886",
+            appId: "1:256737624886:web:bf4abcb4b40c5b94c5a997",
+            measurementId: "G-VKP237GY2F"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/globales.js"></script>
     <script src="js/main.js"></script>
     <script src="js/class.js"></script>
+    <script src="js/form.js"></script>
     <script src="js/functions.js"></script>
 
 </body>

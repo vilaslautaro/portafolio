@@ -40,7 +40,7 @@ btnMode.addEventListener('click', function () {
     // agregamos clase active al boton
     btnMode.classList.toggle('active');
     // cambiamos a la imagen de fondo gris
-    $('#imgPerfil').attr("src", "img/perfil2.png");
+    $('#imgPerfil').attr("src", "img/perfildark.png");
 
     // guardamos la eleccion del usuario en el localStorage
     if (document.body.classList.contains('dark')) {
@@ -58,7 +58,7 @@ function localStorageModo() {
         // agregamos clase dark al body
         document.body.classList.add('dark');
         // cambiamos a la imagen de fondo gris
-        $('#imgPerfil').attr("src", "img/perfil2.png");
+        $('#imgPerfil').attr("src", "img/perfildark.png");
         // agregamos clase active al boton
         btnMode.classList.add('active');
     } else {
@@ -73,8 +73,29 @@ function localStorageModo() {
 localStorageModo();
 
 
-
-
+function creadorUISkills(skills) {
+    contenedorDOMSkills.innerHTML = "";
+    for (let skill of skills) {
+        // creamos el div
+        let cajasSkills = document.createElement('div');
+        // le agregamos una clase a nuestro div recien creado
+        cajasSkills.classList.add('cajaserv');
+        // cargamos de contenido el nuevo elemento
+        cajasSkills.innerHTML = `
+        <div class="servicio" id="${skill.id}">
+                        <img class="imagenserv" src="${skill.icono}" alt="ecommerce" width="75px">
+                        <p><span class="bold">
+                                <h4>${skill.titulo}</h4>
+                            </span><br>
+                        <h5 class="categoriaserv">${skill.categoria}</h5><br>
+                        <p class="textoserv">${skill.texto}</p>
+                        </p>
+                    </div>
+        `;
+        // agregamos nuestro elemento creado como hijo del contenedorskillss en el DOM
+        contenedorDOMSkills.appendChild(cajasSkills);
+    }
+}
 
 //mostrar sobre mi
 $('#efectoAcerca').mouseenter(function (e) {

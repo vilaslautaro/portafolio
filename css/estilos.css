@@ -20,7 +20,9 @@
         /* Servicios */
             .main .servicios {
                 background: #fff;
-                width: 100%;}
+                width: 100%;
+                padding-bottom: 50px;
+            }
                 body.dark .main .servicios{
                     transition: 0.5s ease alll;
                     background: #202020;
@@ -29,7 +31,7 @@
                     text-align: center;
                     font-size: 50px;
                     padding: 50px 0;
-                    margin: 50px 0px 0px;}  
+                    margin: 0px 0px 0px;}  
                     body.dark .servicios .titulo{
                         transition: 0.5s ease all;
                         color: #fff;
@@ -37,24 +39,29 @@
                     .main .servicios .contenedor{
                         display: grid;
                         width: 100%;
+                        max-width: 1000px;
                         grid-template-columns: 50% 50%;
-                        justify-content: space-between;
+                        justify-content: center;
                         align-items: center;
                     }
                     .main .servicios .contenedor .cajaserv {
-                        margin: 0px 0px 75px 0px;
+                        margin: 0px 0px 5px 0px;
                         display: flex;
                         box-sizing: border-box;
-                        text-align: center;
-                        justify-content: center;
+                        min-height: 50px;
+                        text-align: start;
+                        justify-content: start;
                     } 
                     .servicio {
-                        width: 90%;
+                        width: 100%;
                         font-size: 18px;
                         border-top: 10px solid #FFD100;
                         border-radius: 15px;
+                        display: flex;
+                        align-items: center;
+                        align-content: center;
                         margin: 15px;
-                        padding: 0px 20px;
+                        padding: 20px;
                         background: #202020;
                         color: rgba(255,255,255, 0.801)}
                         .servicio:hover {
@@ -64,25 +71,16 @@
                             transition: 0.5s ease all;
                             background: #000;
                         }
-                        
                         .main .servicios .contenedor .cajaserv img {
-                            margin: 20px 0px 10px 0px;} 
-                        .main .servicios .contenedor .cajaserv h4 {
-                            font-size: 25px;
-                            line-height: 0px;
-                            margin: 0;
-                            margin-bottom: 10px;
-                            color: #fff;} 
+                            width: 25px;
+                            max-height: 25px;
+                            margin-right: 10px;} 
                         .main .servicios .contenedor .cajaserv h5 {
                             font-size: 20px;
                             line-height: 0px;
                             font-weight: 500;
                             margin: 10px 0;
                             color: rgba(255,255,255, 0.911);}
-                        .main .servicios .contenedor .cajaserv p {
-                            margin: 0px 0px 20px 0px;
-                            font-size: 15px;
-                            padding: 0px 10px;}
         /* Portfolio */
         .main .portfolio {
                 background: #333533;

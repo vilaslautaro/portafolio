@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
     // animacion para el scroll direccionado a cada seccion de la web(con los enlaces del menu y el boton del contenedor header)
     $('a[href^="#"]').click(function() {
         let destino = $(this.hash);

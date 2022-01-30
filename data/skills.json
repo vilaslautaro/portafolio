@@ -1,30 +1,32 @@
 [
     {
         "id": "1",
-        "titulo": "Maquetacion Web",
-        "icono": "img/iconos/desarrollo-web.png",
-        "categoria": "Figma",
-        "texto": "Crear una base sólida para un sitio web significa tener la arquitectura HTML y CSS correcta. Si quieres una web, puedo crear el código de front-end de la misma."
+        "titulo": "HTML",
+        "icono": "img/iconos/html.svg"
     },
     {
         "id": "2",
-        "titulo": "Desarrollo Web",
-        "icono": "img/iconos/ecommerce.png",
-        "categoria": "HTML - CSS - JS",
-        "texto": "Crear una tienda online puede resultar complicado. He aprendido las mejores formas de diseñar tiendas que vendan productos y brinden valor real a los clientes."
+        "titulo": "CSS",
+        "icono": "img/iconos/css.svg"
     },
     {
         "id": "3",
-        "titulo": "Wordpress",
-        "icono": "img/iconos/wordpress.png",
-        "categoria": "Autogestion",
-        "texto": "Casi todos los sitios web que hago se hacen con WordPress y la razón es simple: simplemente funciona. Puede actualizar fácilmente cada contenido, activar o desactivar secciones y mucho más.."
+        "titulo": "Javascript",
+        "icono": "img/iconos/javascript.svg"
     },
     {
         "id": "4",
-        "titulo": "Optimizacion",
-        "icono": "img/iconos/responsive.png",
-        "categoria": "Adaptable y rapido",
-        "texto": "Un sitio web rápido y adaptable a moviles es clave para atraer y fidelizar a nuevos clientes. Hay una gran cantidad de técnicas para hacer un sitio web rápido y responsive, las cuales he estado aplicando."
+        "titulo": "Jquery",
+        "icono": "img/iconos/jquery.svg"
+    },
+    {
+        "id": "5",
+        "titulo": "React",
+        "icono": "img/iconos/react.svg"
+    },
+    {
+        "id": "6",
+        "titulo": "Git",
+        "icono": "img/iconos/git.svg"
     }
 ]

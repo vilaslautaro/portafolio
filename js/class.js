@@ -26,19 +26,17 @@ $.get("data/trabajos.json", function(respuesta, estado){
 
 // class skills
 class Skills{
-    constructor(id, titulo, icono, categoria, texto){
+    constructor(id, titulo, icono){
         this.id = id;
         this.titulo = titulo;
         this.icono = icono;
-        this.categoria = categoria;
-        this.texto = texto;
     }
 }
 
 $.get("data/skills.json", function(respuesta, estado){
     if(estado == 'success'){
         for (let skill of respuesta){
-            skills.push(new Skills(skill.id, skill.titulo, skill.icono, skill.categoria, skill.texto));
+            skills.push(new Skills(skill.id, skill.titulo, skill.icono));
         }
         creadorUISkills(skills);
     } else{

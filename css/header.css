@@ -2,7 +2,7 @@
  /* Header */
  header {
     background: #202020;
-    padding-bottom: 40px;
+    padding-bottom: 200px;
     max-height: 1400px;}
     body.dark header{
         transition: 0.5s ease all;
@@ -118,8 +118,8 @@
                             }
     header .contenedor-header {
         display: flex;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 100px;
+        padding-bottom: 50px;
         flex-direction:row;
         flex-wrap: wrap;
         justify-content: center;
@@ -127,74 +127,30 @@
         header .contenedor-header .imagen {
             width: 100%;
             text-align: center;}
-        header .contenedor-header .text {
-            width: 100%;
-            text-align: center;}
-            header .contenedor-header .text .nombre{
-        color: #fff;
-        font-weight: 600;
-        margin-bottom: 30px;
-        font-size: 50px;
-        line-height: 50px;}
-                header .contenedor-header .text .nombre .efectoAcerca{
-                    border-bottom: 1px solid #fff;
-                    cursor: pointer;
-                    display: inline-block;
-                }
-            header .contenedor-header .text .profesion {
-                color: #fff;
-                font-weight: 500;
-                font-size: 20px;
-                line-height: 20px;
-                margin-bottom: 30px;}
-                header .contenedor-header .text .cajaTexto{
-                    display: none;
-                    position: absolute;
-                    right: -100px;
-                    top: 220px;
-                }
-                header .contenedor-header .text .cajaTexto .textoSobreMi{
-                    background: #fff;
-                    color: #000;
-                    border-radius: 20px;
-                    width: 700px;
-                    line-height: 30px;
-                    font-weight: 500;
-                    font-size: 20px;
-                    padding: 15px;
-                }
-                body.dark header .contenedor-header .text .cajaTexto .textoSobreMi{
-                    transition: 0.5s ease all;
-                    background: #202020;
+            header .contenedor-header .text {
+                width: 100%;
+                text-align: center;}
+                header .contenedor-header .text .nombre{
                     color: #fff;
-                }
-                header .contenedor-header .text .cajaResponsiveTexto {
-                    display: none;
-                }
-        header .contenedor-header .contenedorflecha {
-            position: absolute;
-            color: #fff;
-            font-size: 25px;
-            height: 200px;
-            top: 170px;
-            right: 450px;
-            bottom: 0;
-        }
-            header .contenedor-header .contenedorflecha .acercade{
-                padding: 0;
-                margin: 0;
-            }
-            header .contenedor-header .contenedorflecha .flecha{
-                color: #fff;
-                width: 150px;
-                height: 150px;
-                margin: 0;
-                padding: 0;
-                -moz-transform: rotate(-150deg);
-                -o-transform: rotate(-150deg);
-                -webkit-transform: rotate(-150deg);
-                transform: rotate(-150deg);
-            }
+                    font-weight: 600;
+                    margin-bottom: 30px;
+                    font-size: 35px;
+                    line-height: 50px;}
+                    header .contenedor-header .text .profesion {
+                        color: #fff !important;
+                        font-weight: 500;
+                        font-size: 30px;
+                        line-height: 20px;
+                        margin-bottom: 35px;
+                    }
+                        header .contenedor-header .text .profesion .typed{
+                            display: inline-block;
+                            font-size: 30px;
+                            color: #ffd100;
+                        }
+                        header .contenedor-header .text .profesion .inicio-cadena{
+                            color: #fff !important;
+                        }
         header .contenedor-header .boton-hd {
             border-radius: 33px;
             cursor: pointer;
@@ -220,4 +176,13 @@
                 text-shadow: 1px 1px 10px rgb(0, 0, 0);
                 text-decoration: none;
                 text-transform: capitalize;
+            }
+
+            /* animacion */
+            @keyframes efectoProfesion {
+                from{
+                    width: 100%;
+                }to{
+                    width: 0%;
+                }
             }

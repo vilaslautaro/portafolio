@@ -151,6 +151,13 @@
                         header .contenedor-header .text .profesion .inicio-cadena{
                             color: #fff !important;
                         }
+                        header .contenedor-header .text .sobreMi {
+                            color: #fff !important;
+                            font-weight: 500;
+                            font-size: 20px;
+                            padding: 0 250px;
+                            margin-bottom: 35px;
+                        }
         header .contenedor-header .boton-hd {
             border-radius: 33px;
             cursor: pointer;

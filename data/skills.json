@@ -2,31 +2,31 @@
     {
         "id": "1",
         "titulo": "HTML",
-        "icono": "img/iconos/html.svg"
-    },
-    {
-        "id": "2",
-        "titulo": "CSS",
-        "icono": "img/iconos/css.svg"
-    },
-    {
-        "id": "3",
-        "titulo": "Javascript",
-        "icono": "img/iconos/javascript.svg"
-    },
-    {
-        "id": "4",
-        "titulo": "Jquery",
-        "icono": "img/iconos/jquery.svg"
-    },
-    {
-        "id": "5",
-        "titulo": "React",
-        "icono": "img/iconos/react.svg"
+        "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845930/portfolio/iconos/html_jrf6lh.svg"
     },
     {
         "id": "6",
         "titulo": "Git",
-        "icono": "img/iconos/git.svg"
+        "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845929/portfolio/iconos/git_wicgcz.svg"
+    },
+    {
+        "id": "2",
+        "titulo": "CSS",
+        "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845928/portfolio/iconos/css_gr2egh.svg"
+    },
+    {
+        "id": "4",
+        "titulo": "Jquery",
+        "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845931/portfolio/iconos/jquery_ge4f9k.svg"
+    },
+    {
+        "id": "3",
+        "titulo": "Javascript",
+        "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845931/portfolio/iconos/javascript_utdpyc.svg"
+    },
+    {
+        "id": "5",
+        "titulo": "React",
+        "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845931/portfolio/iconos/react_oymrl6.svg"
     }
 ]

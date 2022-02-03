@@ -11,7 +11,7 @@ function creadorUITrabajos(trabajos) {
         cajasTrabajo.innerHTML = `
         <div class="trabajos">
                         <div class="thumb">
-                            <img src=${trabajo.imagen} alt="cripto la plata" width="500px" height="350px">
+                            <img src=${trabajo.imagen} alt="cripto la plata" >
                         </div>
                         <div class="descripcion">
                             <p class="nombre">${trabajo.nombre}</p>
@@ -19,10 +19,10 @@ function creadorUITrabajos(trabajos) {
                             <p class="resumen">${trabajo.resumen}</p>
                             <div class="botones">
                                 <div class="boton-pf">
-                                    <a href="${trabajo.pflink}" class="btnVisitar">${trabajo.botonpf}</a>
+                                    <a href="${trabajo.pflink}" target="_blank" class="btnVisitar">${trabajo.botonpf}</a>
                                 </div>
-                                <div class="boton-vp">
-                                    <a href="${trabajo.vplink}">${trabajo.botonvp}</a>
+                                <div class="boton-vp ${trabajo.clase}">
+                                    <a href="${trabajo.vplink}" target="_blank" >${trabajo.botonvp}</a>
                                 </div>
                             </div>
                         </div>
@@ -62,7 +62,7 @@ btnMode.addEventListener('click', function () {
     // agregamos clase active al boton
     btnMode.classList.toggle('active');
     // cambiamos a la imagen de perfil del header a imagen de fondo gris
-    $('#imgPerfil').attr("src", "img/perfildark.png");
+    $('#imgPerfil').attr("src", "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845930/portfolio/perfil/perfildark_dkwxs4.png");
 
     // guardamos la eleccion del usuario en el localStorage
     if (document.body.classList.contains('dark')) {
@@ -70,7 +70,7 @@ btnMode.addEventListener('click', function () {
     } else {
         localStorage.setItem('modoOscuro', 'desactivado');
         // regresamos a la imagen original
-        $('#imgPerfil').attr("src", "img/perfil.png");
+        $('#imgPerfil').attr("src", "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845930/portfolio/perfil/perfil_mcleyh.png");
     }
 });
 
@@ -80,14 +80,14 @@ function localStorageModo() {
         // agregamos clase dark al body
         document.body.classList.add('dark');
         // cambiamos a la imagen de fondo gris
-        $('#imgPerfil').attr("src", "img/perfildark.png");
+        $('#imgPerfil').attr("src", "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845930/portfolio/perfil/perfildark_dkwxs4.png");
         // agregamos clase active al boton
         btnMode.classList.add('active');
     } else {
         // eliminar la clase dark al body
         document.body.classList.remove('dark');
         // regresamos a la imagen original
-        $('#imgPerfil').attr("src", "img/perfil.png");
+        $('#imgPerfil').attr("src", "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845930/portfolio/perfil/perfil_mcleyh.png");
         // removemos clase active al boton
         btnMode.classList.remove('active');
     }

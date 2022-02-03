@@ -1,11 +1,10 @@
-//mostrar sobre mi
-$('#efectoAcerca').mouseenter(function () {
-    $('#cajaTexto').show();
-});
-$('#efectoAcerca').mouseout(function () {
-    $('#cajaTexto').hide();
-});
+// efecto abrir y cerrar menu movil
+let btnNav = document.getElementById('menuToggle');
+let Nav = document.getElementById('menu');
 
+btnNav.addEventListener('click', () => {
+    Nav.classList.toggle('activado');
+});
 
 // $('.contenedor').click(animacionSkills);
 // function animacionSkills(e) {

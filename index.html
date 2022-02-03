@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/mediaqueries.css">
-    <link rel="shortcut icon" href="img/logos/logo.svg" type="image/x-icon">
+    <link rel="shortcut icon"
+        href="https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845931/portfolio/logos/logo_nbyixn.svg"
+        type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
@@ -25,50 +27,61 @@
                 <nav class="logo">
                     <a
                         href="file:///C:/Users/vilas/Desktop/GENERAL/Cursos/Curso%20Diseno%20Web/Practicas/portafolio/index.html#inicio">
-                        <img src="img/logos/logo.svg" alt="" width="50px">
+                        <img src="https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845931/portfolio/logos/logo_nbyixn.svg"
+                            alt="" width="50px">
                     </a>
                 </nav>
                 <nav id="menu" class="menu">
                     <a href="#inicio">Inicio</a>
-                    <a href="#skills">Skills</a>
+                    <a href="#skills">Sobre Mi</a>
                     <a href="#portfolio">Portfolio</a>
                     <a href="#contacto">Contacto</a>
                 </nav>
+                <button id="menuToggle" class="menuToggle"><i class="fas fa-bars"></i></button>
                 <div class="rrss">
                     <a href="https://github.com/vilaslautaro" alt="GitHub" target="_blank" title="GitHub"
                         class="icono github"><i class="fab fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/lautarovilas/" class="icono linkedin" target="_blank"
                         alt="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
                     <button id="btnMode" class='nav__BtnMode'>
-                        <span><img class='btn__img Sun' src='img/iconos/sun.png'></img></span>
-                        <span><img class='btn__img Moon' src='img/iconos/moon.png'></img></span>
+                        <span><img class='btn__img Sun' src='https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845933/portfolio/iconos/sun_jskhk4.png'></img></span>
+                        <span><img class='btn__img Moon' src='https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845931/portfolio/iconos/moon_agsmhf.png'></img></span>
                     </button>
                 </div>
             </div>
-            <div class="contenedor-header" id="inicio">
+            <div class="contenedor-header">
                 <div class="imagen">
-                    <img src="img/perfil.png" id="imgPerfil" alt="Lautaro Vilas" width="300px">
+                    <img src="https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845930/portfolio/perfil/perfil_mcleyh.png"
+                        id="imgPerfil" alt="Lautaro Vilas" width="300px">
                 </div>
                 <div id="text" class="text">
                     <h1 id="nombre" class="nombre">Hola! Mi nombre es Lautaro Vilas</h1>
                     <h2 class="profesion">Soy <span class="typed"></span></h2>
                     <div class="profesion" id="cadenas-texto">
                         <h2><span>desarrollador Front-End</span></h2>
-                        <h2><span>emprendedor</span></h2>
+                        <h2><span>emprendedor!</span></h2>
                         <h2><span>apasionado</span></h2>
                     </div>
-                    <h3 class="sobreMi">Fui emprendedor, y hace un tiempo que me he interiorizado en el mundo IT.
-                        Actualmente soy desarrollador Front-End, aprendiendo a manejar lenguajes back-end como NodeJS y tambien desarrollando mis Soft Skills capacitandome en Metodologias Agiles (Scrum).</h3>
                 </div>
                 <div class="boton-hd">
-                    <a href="/download/CV - Lautaro Vilas.pdf" download="CV - Lautaro Vilas">Descargar CV</a>
+                    <a href="https://drive.google.com/uc?id=1IubC-HA0sTLqaug_BJ4fUJCF_c5eIQ2-&export=download" download="CV - Lautaro Vilas">Descargar CV</a>
                 </div>
             </div>
+            <a class="enlace__BtnUp" href="#inicio"><button class="btn__Up"><i class="fas fa-chevron-up"></i></button></a>
         </div>
     </header>
     <section class="main">
         <section class="servicios" id="skills">
-            <h3 class="titulo">Habilidades y Tecnologias</h3>
+            <h3 class="titulo">Sobre mí</h3>
+            <p class="text__SobreMi">Fui emprendedor, y hace un tiempo que me he interiorizado en el mundo IT más
+                especificamente en programación <i class="fas fa-rocket"></i><br><br>
+                Me parece muy apasionante la programacion ya que constantemente me encuentro nuevos desafios, y es muy
+                satisfactorio ver que en el momento de resolverlos puedo aportar valor a la empresa y/o el cliente, me
+                recuerda el espiritu emprendedor.<br><br>
+                Actualmente soy <span class="subtext__SobreMi">desarrollador Front-End especializado en React.JS</span>,
+                a su vez estoy aprendiendo a manejar lenguajes back-end como NodeJS y también desarrollando mis Soft
+                Skills, capacitandome en Metodologias Agiles (Scrum).</p>
+            <h5 class="subtitulo">Habilidades y Tecnologias</h5>
             <div class="contenedor" id="contenedorSkills">
                 <!-- En esta seccion generamos las skills dinamicamente -->
             </div>
@@ -100,7 +113,8 @@
         </section>
         <section class="redes-sociales">
             <div class="logo">
-                <img src="img/logos/logo.png" title="Codifiquemos juntos!" width="100px">
+                <img src="https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845933/portfolio/logos/logo_yrhlzc.png"
+                    title="Codifiquemos juntos!" width="100px">
             </div>
             <div class="frase">
                 <p>La vida es un libro que se escribe con acciones,<br> no con deseos, asi que a codificar!</p>
@@ -111,7 +125,6 @@
                 <a href="https://www.linkedin.com/in/lautarovilas/" target="_blank" class="linkedin" alt="LinkedIn"
                     title="LinkedIn"><i class="fab fa-linkedin"></i></a>
             </div>
-            <p class="email">vilaslautaro@gmail.com</p>
             <div class="copyright">
                 <p>Hecho a mano por Lautaro Vilas</p>
                 <p>Todos los derechos reservados 2022</p>
@@ -125,10 +138,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
         referrerpolicy="no-referrer"></script>
     <script src="js/globales.js"></script>
+    <script src="js/functions.js"></script>
     <script src="js/main.js"></script>
     <script src="js/class.js"></script>
     <script src="js/form.js"></script>
-    <script src="js/functions.js"></script>
     <script src="js/effect.js"></script>
 
 </body>

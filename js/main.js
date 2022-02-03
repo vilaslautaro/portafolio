@@ -14,5 +14,5 @@ $(document).ready(function () {
 
         // --------EFECTOS----------
         // efectos menu
-        $('#menu').fadeIn(3000);
+        $('menu').fadeIn(3000);
 });

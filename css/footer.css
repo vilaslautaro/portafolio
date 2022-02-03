@@ -1,8 +1,7 @@
 /* Footer */
         /* Formulario */
         footer .contacto {
-            padding: 60px;
-            padding-bottom: 100px;}
+            padding: 50px 0 100px;}
             body.dark footer .contacto{
                 transition: 0.3s ease all;
                 background: #202020;
@@ -10,7 +9,7 @@
             footer .contacto .titulo {
             text-align: center;
             font-size: 50px;
-            margin-top: 80px;
+            margin-top: 30px;
             line-height: 30px;
             margin-bottom: 30px;
             color: #000;}
@@ -124,14 +123,6 @@
                 margin: auto;
                 font-weight: 500;
                 line-height: 25px;}
-            footer .email{
-                margin: 0 auto;
-                color: #fff;
-                font-weight: 500;
-                line-height: 25px;
-                text-align: center;
-                margin-top: 10px;
-            }
             footer .redes-sociales a {
                 color: #fff;
                 text-align: center;

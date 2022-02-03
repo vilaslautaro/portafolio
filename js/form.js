@@ -1,5 +1,5 @@
 // validacion del formulario
-let form = document.getElementById('form');
+
 form.addEventListener('submit', enviarFormulario);
 
 function enviarFormulario(e) {
@@ -22,12 +22,7 @@ function enviarFormulario(e) {
 function validarFormulario() {
     $('.error').html('');
 
-    let name = document.getElementById('form__name');
-    let nameError = document.getElementById('name__Error');
-    let email = document.getElementById('form__email');
-    let emailError = document.getElementById('email__Error');
-    let mensaje = document.getElementById('form__mensaje');
-    let mensajeError = document.getElementById('mensaje__Error');
+   
 
     // si alguno de los input tiene la clase invalid se la quitamos
     if ($('#form__name').hasClass('invalid') == true) {

@@ -1,42 +1,46 @@
 [
     {
         "nombre": "Cripto La Plata",
-        "imagen": "/img/portfolios/3.jpg",
+        "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643846228/portfolio/portfolios/criptolaplata2_p5wtio.png",
         "categoria": "HTML - CSS - JQUERY - PHP",
-        "resumen": "Desarrolle el sitio web a medida segun lo solicitado por el cliente, y conecte el front-end (utilizando PHP) con la plataforma wordpress para darle facilidad al momento de subir articulos y realizar cambios en los textos.",
+        "resumen": "Realice la maquetacion con Figma, tuve el desafio de usar y aprender PHP (desde la documentación) para lograr conectar la web con la plataforma wordpress por pedido del cliente.",
         "botonpf": "Visitar Sitio",
-        "pflink" : "#",
+        "pflink" : "https://www.criptolaplata.com",
         "botonvp": "GitHub",
+        "clase": "desactivated",
         "vplink" : "#"
     },
     {
-        "nombre": "Banco Digital",
-        "imagen": "/img/portfolios/2.jpg",
-        "categoria": "HTML - CSS - JAVASCRIPT - REACT",
-        "resumen": "Banco Digital, desarrollado en equipo en un proyecto de IdForIdeas",
+        "nombre": "Portfolio",
+        "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643851609/portfolio/portfolios/portfolio_iftxnn.png",
+        "categoria": "HTML - CSS - JAVASCRIPT",
+        "resumen": "Portfolio personal, con modo oscuro, adaptable a moviles, y animaciones",
         "botonpf": "Visitar Sitio",
-        "pflink" : "#",
+        "pflink" : "https://vilaslautaro.github.io/",
         "botonvp": "GitHub",
-        "vplink" : "#"
+        "clase": "activated",
+        "vplink" : "https://github.com/vilaslautaro/vilaslautaro.github.io"
     },
     {
-        "nombre": "CryptoMarket",
-        "imagen": "/img/portfolios/1.jpg",
-        "categoria": "HTML - CSS - REACT",
-        "resumen": "Ecommerce desarrollado como trabajo final en la certificacion de React.JS realizada en Coderhouse.",
+        "nombre": "CryptoMarket ",
+        "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643895366/portfolio/portfolios/cryptomarket_vlbypb.png",
+        "categoria": "*Sitio Web en construcción*",
+        "resumen": "Ecommerce desarrollado con CSS puro y reactJS.",
         "botonpf": "Visitar Sitio",
         "pflink" : "#",
         "botonvp": "GitHub",
+        "clase": "activated",
         "vplink" : "#"
     },
     {
         "nombre": "AutoClick",
-        "imagen": "/img/portfolios/4.jpg",
+        "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643850120/portfolio/portfolios/autoclick_rpqxie.png",
         "categoria": "HTML - CSS - JAVASCRIPT - JQUERY",
-        "resumen": "Ecommerce desarrolado como trabajo final en la certificacion de Javascript realizada en Coderhouse.",
+        "resumen": "Ecommerce desarrollado con Jquery, añadimos un carrito de compras que al agregar un producto calcula el precio subtotal, el total, boton de eliminar producto, y filtros para poder filtrar segun nombre, marca, tipo de automovil y/o precio.",
         "botonpf": "Visitar Sitio",
-        "pflink" : "#",
+        "pflink" : "https://autoclick.netlify.app/",
         "botonvp": "GitHub",
-        "vplink" : "#"
+        "clase": "activated",
+        "vplink" : "https://github.com/vilaslautaro/AutoClick"
     }
 ]

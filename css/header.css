@@ -2,7 +2,7 @@
  /* Header */
  header {
     background: #202020;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     max-height: 1400px;}
     body.dark header{
         transition: 0.5s ease all;
@@ -16,6 +16,14 @@
         align-content: center;
         justify-content: space-between;
         align-items: center;}
+        header .menus .menuToggle{
+            display: none;
+            color: #ffd100;
+            background: transparent;
+            border: none;
+            font-size: 19px;
+            height: 90%;
+        }
         header .menus .logo a {
             padding: 5px 25px;
             color: #FFD100;
@@ -27,9 +35,6 @@
                 background: transparent ;
                 transform: scale(1.03);
                 transition: 0.3s;}
-        header .menus .menu{
-            display: none;
-        }
             header .menus .menu a {
                 margin: 0 20px;
                 color: #FFD100;
@@ -118,8 +123,8 @@
                             }
     header .contenedor-header {
         display: flex;
-        margin-top: 100px;
-        padding-bottom: 50px;
+        margin-top: 50px;
+        padding-bottom: 20px;
         flex-direction:row;
         flex-wrap: wrap;
         justify-content: center;
@@ -164,25 +169,40 @@
             border: 2px solid #FFD100; 
             padding: 17px 40px 17px 40px;
             margin-top: 0px;
-            background: #FFD100;}
-            body.dark .contenedor-header .boton-hd{
-                background: transparent;
-                transition: 0.5s ease all;
-            }
-            body.dark .contenedor-header .boton-hd:hover{
-                background: #FFD100;
-                transition: 0.5s ease all;
-            }
-            header .contenedor-header .boton-hd:hover {
-                transform: scale(1.03);
-                transition: 0.3s;
-                background: transparent;}
+            background: transparent;}
+                header .contenedor-header .boton-hd:hover{
+                    background: #FFD100;
+                    transition: 0.5s ease all;
+                    transform: scale(1.03);
+                }
             header .contenedor-header .boton-hd a {
                 color: #fff;
                 font-size: 20px;
-                text-shadow: 1px 1px 10px rgb(0, 0, 0);
+                text-shadow: 1px 1px 1px #000;
                 text-decoration: none;
                 text-transform: capitalize;
+            }
+            .enlace__BtnUp{
+                position:fixed;
+                right: 3%;
+                bottom: 5%;
+                cursor: pointer;
+                z-index: 300;
+            }
+            .btn__Up{
+                background: #000;
+                border: none;
+                color: #ffd100;
+                z-index: 301;
+                border: 1px solid #ffd100;
+                border-radius: 33px;
+                font-size: 25px;
+                padding: 6px 10px 7px 11px;
+                cursor: pointer; 
+            }
+            .fa-chevron-up{
+                cursor: pointer;
+                z-index: 302;
             }
 
             /* animacion */

@@ -29,12 +29,54 @@
                 }
                 .main .servicios .titulo {
                     text-align: center;
-                    font-size: 50px;
-                    padding: 50px 0;
-                    margin: 0px 0px 0px;}  
-                    body.dark .servicios .titulo{
+                    font-size: 45px;
+                    padding: 30px 0 20px;
+                    margin: 0;
+                }  
+                    body.dark .servicios .titulo,
+                    body.dark .servicios .subtitulo,
+                    body.dark .servicios .text__SobreMi{
                         transition: 0.5s ease all;
                         color: #fff;
+                    }
+                     body.dark .main .servicios .text__SobreMi .fa-rocket,
+                    body.dark .servicios .text__SobreMi .subtext__SobreMi{
+                        transition: 0.5s ease all;
+                        filter: brightness(1.2);
+                        
+                    }
+                    .main .servicios .text__SobreMi .fa-rocket:hover{
+                        transform: scale(1.3);
+                        transition: 0.5s ease all;
+                    }
+                    .main .servicios .text__SobreMi {
+                        font-size: 20px;
+                        margin: 0 auto;
+                        width: 60%;
+                        line-height: 27px;
+                        max-width: 1600px;
+                        font-weight: 400;
+                        padding: 0 0px 50px;
+                        text-align: center;
+                    }
+                    .main .servicios .text__SobreMi .fa-rocket{
+                        color: #ffd100; 
+                        font-size: 30px;
+                        filter: brightness(0.9);
+                    }
+                     .main .servicios .text__SobreMi .subtext__SobreMi{
+                         color: #FFD100;
+                         filter: brightness(0.8);
+                         margin: 0;
+                         display: initial;
+                         padding: 0;
+
+                     }
+                    .main .servicios .subtitulo{
+                        text-align: center;
+                        font-size: 30px;
+                        padding: 20px 0;
+                        margin: 0px 0px 0px;
                     }
                     .main .servicios .contenedor{
                         display: grid;
@@ -126,7 +168,8 @@
                     background: #202020;
                     transition: 0.3s;}
             .thumb img {
-                border-radius: 33px;}
+                border-radius: 10px;
+                width: 99%;}
             .thumb, .descripcion {
                 width:50%;
                 display: flex;
@@ -143,12 +186,18 @@
                 margin: 20px 0;
                 font-size: 22px;
                 font-weight: 500;}
+                body.dark .categoria{
+                    color: #fff;
+                }
             .resumen {
                 color: rgba(255, 255, 255, 0.60);
                 padding-bottom: 25px;
                 font-size: 18px;
                 font-weight: 400;
                  margin: 10px 50px;}
+                 body.dark .resumen{
+                     color: rgba(255, 255, 255, 0.85);
+                 }
             .botones{
                 display: flex;
                 flex-flow: row wrap;
@@ -173,4 +222,9 @@
                         text-shadow: 1px 1px 10px rgb(0, 0, 0);
                         text-decoration: none;
                         text-transform: capitalize;}
-        
+                .boton-vp.desactivated,
+                .boton-vp.desactivated ~ .boton-vp a{
+                   opacity: 0.5;
+                   cursor:default !important;
+                   pointer-events: none;
+                }

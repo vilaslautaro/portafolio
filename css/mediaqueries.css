@@ -82,6 +82,9 @@
         }
     header .contenedor .contenedor-header .boton-hd a {
         font-size: 1.25em;}
+        .enlace__BtnUp, .btn__Up{
+            display: none;
+        }
     /* servicios */
         .main .servicios .contenedor {
             margin: 0em;
@@ -210,15 +213,6 @@
             header .contenedor .contenedor-header .boton-hd a {
                 font-size: 0.9375em;
                 margin: auto;}
-
-                .enlace__BtnUp{
-                    right: 3%;
-                    bottom: 3%;
-                }
-                .btn__Up{ 
-                    font-size: 1.25em;
-                    padding: 5px 9px 6px 9px;
-                }
     /* servicios */
         .main .servicios .contenedor {
             margin: 0em;

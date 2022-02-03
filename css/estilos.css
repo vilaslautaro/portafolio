@@ -11,7 +11,7 @@
         }
         .contenedor {
             width: 95%;
-            max-width:1400px;
+            max-width:87.5em;
             margin: 0 auto;
             overflow: hidden;}
         /* Main */
@@ -21,7 +21,7 @@
             .main .servicios {
                 background: #fff;
                 width: 100%;
-                padding-bottom: 50px;
+                padding-bottom: 3.125em;
             }
                 body.dark .main .servicios{
                     transition: 0.5s ease alll;
@@ -29,8 +29,8 @@
                 }
                 .main .servicios .titulo {
                     text-align: center;
-                    font-size: 45px;
-                    padding: 30px 0 20px;
+                    font-size: 2.8125em;
+                    padding: 1.875em 0 1.25em;
                     margin: 0;
                 }  
                     body.dark .servicios .titulo,
@@ -50,18 +50,18 @@
                         transition: 0.5s ease all;
                     }
                     .main .servicios .text__SobreMi {
-                        font-size: 20px;
+                        font-size: 1.25em;
                         margin: 0 auto;
                         width: 60%;
-                        line-height: 27px;
-                        max-width: 1600px;
+                        line-height: 1.6875em;
+                        max-width: 100em;
                         font-weight: 400;
-                        padding: 0 0px 50px;
+                        padding: 0 0em 3.125em;
                         text-align: center;
                     }
                     .main .servicios .text__SobreMi .fa-rocket{
                         color: #ffd100; 
-                        font-size: 30px;
+                        font-size: 1.875em;
                         filter: brightness(0.9);
                     }
                      .main .servicios .text__SobreMi .subtext__SobreMi{
@@ -74,36 +74,36 @@
                      }
                     .main .servicios .subtitulo{
                         text-align: center;
-                        font-size: 30px;
-                        padding: 20px 0;
-                        margin: 0px 0px 0px;
+                        font-size: 1.875em;
+                        padding: 1.25em 0;
+                        margin: 0em 0em 0em;
                     }
                     .main .servicios .contenedor{
                         display: grid;
                         width: 100%;
-                        max-width: 1000px;
+                        max-width: 62.5em;
                         grid-template-columns: 50% 50%;
                         justify-content: center;
                         align-items: center;
                     }
                     .main .servicios .contenedor .cajaserv {
-                        margin: 0px 0px 5px 0px;
+                        margin: 0em 0em 0.3125em 0em;
                         display: flex;
                         box-sizing: border-box;
-                        min-height: 50px;
+                        min-height: 3.125em;
                         text-align: start;
                         justify-content: start;
                     } 
                     .servicio {
                         width: 100%;
-                        font-size: 18px;
-                        border-top: 10px solid #FFD100;
+                        font-size: 1.125em;
+                        border-top: 0.625em solid #FFD100;
                         border-radius: 15px;
                         display: flex;
                         align-items: center;
                         align-content: center;
-                        margin: 15px;
-                        padding: 20px;
+                        margin: 0.9375em;
+                        padding: 1.25em;
                         background: #202020;
                         color: rgba(255,255,255, 0.801)}
                         .servicio:hover {
@@ -114,14 +114,14 @@
                             background: #000;
                         }
                         .main .servicios .contenedor .cajaserv img {
-                            width: 25px;
-                            max-height: 25px;
-                            margin-right: 10px;} 
+                            width: 1.5625em;
+                            max-height: 1.5625em;
+                            margin-right: 0.625em;} 
                         .main .servicios .contenedor .cajaserv h5 {
-                            font-size: 20px;
-                            line-height: 0px;
+                            font-size: 1.25em;
+                            line-height: 0em;
                             font-weight: 500;
-                            margin: 10px 0;
+                            margin: 0.625em 0;
                             color: rgba(255,255,255, 0.911);}
         /* Portfolio */
         .main .portfolio {
@@ -137,9 +137,9 @@
             } 
             .main .portfolio .titulo {
                 text-align: center;
-                font-size: 50px;
-                margin-bottom: 40px;
-                padding-top: 40px;
+                font-size: 3.125em;
+                margin-bottom: 2.5rem;
+                padding-top: 2.5rem;
                 color: #fff;}
             .main .portfolio .cajastrabajo .trabajos {
                 background: #333533;
@@ -151,7 +151,7 @@
                 justify-content: space-between;
                 align-items: center;
                 text-align: center;
-                padding: 50px 0px 50px 0px;}
+                padding: 3.125em 0em 3.125em 0em;}
                 body.dark .main .portfolio .cajastrabajo .trabajos{
                     background: #000;
                     transition: 0.3s ease all;
@@ -162,7 +162,7 @@
                     transition: 0.3s ease all;
                 }
                 .main .portfolio .cajastrabajo .trabajos:last-child {
-                    margin-bottom: 50px;}
+                    margin-bottom: 3.125em;}
                 .main .portfolio .cajastrabajo .trabajos:hover {
                     border-bottom: 2px solid rgba(255, 255, 255, 0.274);
                     background: #202020;
@@ -175,26 +175,26 @@
                 display: flex;
                 flex-flow: column;
                 align-items: center;
-                margin: 0px 20px;}
+                margin: 0px 1.25em;}
             .nombre {
                 color: #ffd100;
-                margin: 20px 0;
-                font-size: 35px;
+                margin: 1em 0 0.5em;
+                font-size: 2.1875em;
                 font-weight: bold;}
             .categoria {
                 color: rgba(255, 255, 255, 0.85);
-                margin: 20px 0;
-                font-size: 22px;
+                margin: 1.25em 0;
+                font-size: 1.375em;
                 font-weight: 500;}
                 body.dark .categoria{
                     color: #fff;
                 }
             .resumen {
                 color: rgba(255, 255, 255, 0.60);
-                padding-bottom: 25px;
-                font-size: 18px;
+                padding-bottom: 1.5625em;
+                font-size: 1.125em;
                 font-weight: 400;
-                 margin: 10px 50px;}
+                 margin: 0.625em 3.125em;}
                  body.dark .resumen{
                      color: rgba(255, 255, 255, 0.85);
                  }
@@ -203,12 +203,12 @@
                 flex-flow: row wrap;
             }
                 .boton-pf {
-                    margin-right: 10px;
+                    margin-right: 0.625em;
                 }
                 .boton-vp, .boton-pf {
                     border-radius: 33px;
                     border: 2px solid #FFD100; 
-                    padding: 17px 40px 17px 40px;
+                    padding: 1.0625em 2.5em 1.0625em 2.5em;
                     margin-top: 0px;
                     cursor: pointer;
                     background: transparent;}
@@ -218,7 +218,7 @@
                         background: #ffd100;}
                     .boton-vp a, .boton-pf a{
                         color: #fff;
-                        font-size: 20px;
+                        font-size: 1.25em;
                         text-shadow: 1px 1px 10px rgb(0, 0, 0);
                         text-decoration: none;
                         text-transform: capitalize;}

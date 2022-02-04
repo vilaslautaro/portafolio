@@ -5,7 +5,7 @@ footer {
         /* Formulario */
         footer .contacto {
             font-size: 1em;
-            padding: 3.125em 0 6.25em;}
+            padding: 3.125rem 0 6.25rem;}
             body.dark footer .contacto{
                 transition: 0.3s ease all;
                 background: #202020;
@@ -13,7 +13,7 @@ footer {
             footer .contacto .titulo {
             text-align: center;
             font-size: 3.125em;
-            margin: 1.875em 0 0.9375rem;
+            margin: 1.875rem 0 0.9375rem;
             line-height: 1.875em;
             color: #000;}
             body.dark footer .contacto .titulo, body.dark footer .contacto .subtitulo{
@@ -24,18 +24,18 @@ footer {
                 text-align: center;
                 font-size: 1.875em;
                 margin-top: 0;
-                margin-bottom: 1.875em;
+                margin-bottom: 1.875rem;
                 color: rgba(0, 0, 0, 0.85);}
             footer .contacto .descripcion2{
                 text-align: center;
                 font-size: 1.125em;
                 margin-top: 0;
-                margin-bottom: 1.875em;
+                margin-bottom: 1.875rem;
                 color: rgba(0, 0, 0, 0.70);}
             footer .contacto .formulario {
                 background-color: #202020;
-                border-top: 0.625em solid #FFD100;
-                padding: 1.5625em 1.5625em;
+                border-top: 10px solid #FFD100;
+                padding: 1.5625rem 1.5625rem;
                 border-radius: 10px;
                 display: flex;
                 flex-flow: row wrap;
@@ -60,9 +60,9 @@ footer {
                 footer .contacto .formulario input[type="text"],
                 footer .contacto .formulario input[type="email"],
                 footer .contacto .formulario textarea {
-                    border: 0.125em solid #333533;
+                    border: 2px solid #333533;
                     border-radius: 5px;
-                    padding: 0.9375em 1.25em;
+                    padding: 0.9375rem 1.25rem;
                     font-size: 1.25em;
                     color: #000;}
                     footer .contacto .formulario input[type="text"]:focus,
@@ -90,7 +90,7 @@ footer {
                 text-shadow: 1px 1px 10px rgb(0, 0, 0);
                 border-radius: 33px;
                 border: 2px solid #ffd100; 
-                padding: 0.9375em 1.875em 0.9375em 1.875em;
+                padding: 0.9375rem 1.875rem 0.9375rem 1.875rem;
                 cursor: pointer;
                 background: #FFD100;}
                 body.dark footer .contacto .formulario .botonform{
@@ -108,7 +108,7 @@ footer {
             /* Pie de Pagina */
             footer .redes-sociales {
                 background: #202020;
-                padding:3.125em 0 0;}
+                padding:3.125rem 0 0;}
                 body.dark footer .redes-sociales{
                     transition: 0.3s ease all;
                     background: #000;
@@ -132,7 +132,7 @@ footer {
                 border-radius: 3px;
                 width: 100px;
                 display: block;
-                padding: 0.9375em 0;
+                padding: 0.9375rem 0;
                 font-size: 2.5em;}
                 footer .redes-sociales .github:hover {
                     transition: 0.3s;
@@ -145,5 +145,5 @@ footer {
                 display: flex;
                 flex-flow: row wrap;
                 justify-content: space-between;
-                margin: 3.125em 3.125em 0 3.125em;
-                padding-bottom: 0.625em;}
+                margin: 3.125rem 3.125rem 0 3.125rem;
+                padding-bottom: 0.625rem;}

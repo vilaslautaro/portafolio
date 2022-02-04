@@ -22,7 +22,7 @@
         }
         header .menus .menuToggle{
             display: flex;
-            padding-left: 1.25em;
+            padding-left: 1.25rem;
             font-size: 1.5625em;
             align-items: center;
             cursor: pointer;
@@ -37,12 +37,12 @@
                 flex-flow: column wrap;
                 left: 100%;
                 transition: left 0.5s;
-                top: 2.5em;
+                top: 2.5rem;
                 z-index: 10;
                 width: 100%;
                 background: #202020;
                 z-index: 1000;
-                padding-top: 0.625em;
+                padding-top: 0.625rem;
                 }
                 body.dark header .contenedor .menus .menu{
                     background: #000;
@@ -56,7 +56,7 @@
             border-bottom: 1px solid #FFd100;
             flex-flow: column wrap;
             z-index: 20;
-            padding: 0.625em 0 0.625em 1.25em;
+            padding: 0.625rem 0 0.625rem 1.25rem;
             width: 100%;
             margin: 0;
         }
@@ -65,11 +65,11 @@
             }
 
             header .contenedor .menus .rrss {
-                padding: 0.9375em 0.625em 0.3125em 0;
+                padding: 0.9375rem 0.625rem 0.3125rem 0;
             }
     /* header img textos wspp */
     header .contenedor .contenedor-header .imagen img{
-        width: 15.625em;
+        width: 15.625rem;
         margin: auto;}
     header .contenedor .contenedor-header .text .nombre {
         font-size: 1.875em;}
@@ -98,15 +98,15 @@
                 font-size: 1.25em;
                 margin: 0 auto;
                 width: 60%;
-                line-height: 1.6875em;
+                line-height: 1.6875rem;
                 max-width: 100em;
                 font-weight: 400;
-                padding: 0 0em 3.125em;
+                padding: 0 0 3.125rem;
                 text-align: start;
             }
             .main .servicios .contenedor .cajaserv {
                 width: 80%;
-                margin-bottom: 0.625em;}
+                margin-bottom: 0.625rem;}
             .main .servicios .contenedor .cajaserv img {
                 width: 4.6875em;}
             .main .servicios .contenedor .cajaserv h5 {
@@ -121,7 +121,7 @@
         .main .portfolio .titulo {
             font-size: 3.125em;
             padding-top:0;
-            margin: 3.125em 0 1.25em;}
+            margin: 3.125rem 0 1.25rem;}
             .main .portfolio .contenedor .cajastrabajo {
                 border-bottom: 1px solid #ffd100;}
                 .main .portfolio .contenedor .cajastrabajo .trabajos {
@@ -129,9 +129,9 @@
                     flex-flow: column nowrap;
                     justify-content: center;
                     margin: auto;
-                    padding-bottom: 1.25em;}
+                    padding-bottom: 1.25rem;}
                     .main .portfolio .cajastrabajo .trabajos .thumb{
-                        padding-bottom: 0.9375em;
+                        padding-bottom: 0.9375rem;
                     }
                         .main .portfolio .cajastrabajo .trabajos .thumb img{
                             margin: 0;
@@ -144,22 +144,22 @@
                             width: 100%;}   
                                 .main .portfolio .cajastrabajo .trabajos .descripcion .nombre {
                                     font-size: 2.1875em;
-                                    margin: 0.625em 0em;}
+                                    margin: 0.625rem 0;}
                                 .main .portfolio .cajastrabajo .trabajos .descripcion .categoria {
                                     font-size: 1.25em;
-                                    margin: 0.625em 3.125em;}
+                                    margin: 0.625rem 3.125rem;}
                                 .main .portfolio .cajastrabajo .trabajos .descripcion .resumen {
                                     font-size: 1.125em;
-                                    margin: 0.625em 1.875em;}
+                                    margin: 0.625rem 1.875rem;}
                                 .main .portfolio .cajastrabajo .trabajos .descripcion .boton-pf,
                                 .main .portfolio .cajastrabajo .trabajos .descripcion .boton-vp {
                                     width: 100%;
-                                    margin: 0.9375em 0;
+                                    margin: 0.9375rem 0;
                                     font-size: 0.9375em;
                                     text-shadow: 1px 1px 5px #000}
 /* footer */
     footer .contacto {
-        padding: 0 0 2.5em;}
+        padding: 0 0 2.5rem;}
         footer .contacto .titulo {
             font-size: 2.1875em;}
         footer .contacto .subtitulo {
@@ -170,17 +170,17 @@
         footer .redes-sociales .logo img { 
             width: 4.6875em;}
         footer .redes-sociales .contenedor a {
-            width: 3.75em;
+            width: 3.75rem;
             font-size: 2em}
         footer .redes-sociales .copyright {
-            margin: 1.875em auto 0em auto;}
+            margin: 1.875rem auto 0 auto;}
             footer .redes-sociales .copyright p{
                 display: flex;
                 font-size: 0.9375em;
                 flex-flow: row wrap;
                 justify-content: center;
                 align-items: center;
-                margin: 0.3125em auto;}}
+                margin: 0.3125rem auto;}}
 /* 31.25em */
 @media screen and (max-width: 31.25em) { 
     * {
@@ -192,31 +192,31 @@
                     font-size: 1.125em;}
     /* header img textos wspp */
     header .contenedor .contenedor-header {
-        padding-top: 1.25em;}
+        padding-top: 1.25rem;}
         header .contenedor .contenedor-header .imagen img{
             width: 12.5em;
             margin: auto;}
         header .contenedor .contenedor-header .text .nombre {
             font-size: 1.25em;
-            margin: 1.875em 0em 1.5625em 0em;
-            line-height: 1.25em;}
+            margin: 1.875rem 0 1.5625rem 0;
+            line-height: 1.25rem;}
         header .contenedor .contenedor-header .text .profesion {
             font-size: 1.125em;
-            margin: 0em 0em 1.5625em 0em;}
+            margin: 0 0 1.5625rem 0;}
             header .contenedor-header .text .profesion .typed{
                 display: inline-block;
                 font-size: 1.125em;
                 color: #ffd100;
             }
         header .contenedor .contenedor-header .boton-hd {
-            padding: 0.5em 1.125em 0.75em 1.125em;}
+            padding: 0.5rem 1.125rem 0.75rem 1.125rem;}
             header .contenedor .contenedor-header .boton-hd a {
                 font-size: 0.9375em;
                 margin: auto;}
     /* servicios */
         .main .servicios .contenedor {
-            margin: 0em;
-            padding: 0em;
+            margin: 0;
+            padding: 0;
             display:flex;
             align-items: center;
             flex-flow: column wrap;
@@ -227,15 +227,15 @@
                 font-size: 1.0625em;
                 margin: 0 auto;
                 width: 60%;
-                line-height: 1.6875em;
+                line-height: 1.6875rem;
                 max-width: 100em;
                 font-weight: 400;
-                padding: 0 0em 3.125em;
+                padding: 0 0em 3.125rem;
                 text-align: start;
             }
             .main .servicios .titulo {
                 font-size: 2.5em;
-                margin: 1.875em 0 0.625em;}
+                margin: 1.875rem 0 0.625rem;}
                 .main .servicios .subtitulo{
                     font-size: 1.5625em;
                 }
@@ -254,32 +254,32 @@
         .main .portfolio .titulo {
             font-size: 2.5em;
             padding-top: 0;
-            margin: 2.5em 0 0.625em;}
+            margin: 2.5rem 0 0.625rem;}
                 .main .portfolio .contenedor .cajastrabajo .trabajos {
                     display: flex;
                     flex-flow: column nowrap;
                     justify-content: center;
                     margin: auto;
-                    padding-bottom: 1.25em;}
+                    padding-bottom: 1.25rem;}
                 .main .portfolio .cajastrabajo .trabajos .thumb img{
                     width: 21.875em;}
                 .main .portfolio .cajastrabajo .trabajos .descripcion {
                     width: 100%;}   
                         .main .portfolio .cajastrabajo .trabajos .descripcion .nombre {
                             font-size: 1.5625em;
-                            margin: 0.625em 0em;}
+                            margin: 0.625rem 0;}
                         .main .portfolio .cajastrabajo .trabajos .descripcion .categoria {
                             font-size: 1.0625em;
-                            margin: 0.625em 3.125em;}
+                            margin: 0.625rem 3.125rem;}
                         .main .portfolio .cajastrabajo .trabajos .descripcion .resumen {
                             font-size: 1.0625em;
                             padding-bottom: 0.625em;
-                            margin: 0.625em 3.125em;}
+                            margin: 0.625rem 3.125rem;}
                         .main .portfolio .cajastrabajo .trabajos .descripcion .boton-pf,
                         .main .portfolio .cajastrabajo .trabajos .descripcion .boton-vp {
                             width: 100%;
-                            margin: 0.625em 3.125em;
-                            padding: 0.625em 0.3125em;
+                            margin: 0.625rem 3.125rem;
+                            padding: 0.625rem 0.3125rem;
                             }
                             .main .portfolio .cajastrabajo .trabajos .descripcion .boton-pf a,
                             .main .portfolio .cajastrabajo .trabajos .descripcion .boton-vp a {
@@ -288,25 +288,25 @@
 /* footer */
     footer .contacto {
         padding: 0em;
-        padding-bottom: 3.125em;}
+        padding-bottom: 3.125rem;}
         footer .contacto .contenedor .titulo {
             font-size: 1.875em;
-            margin: 3.125em 0em 0.625em;}
+            margin: 3.125rem 0em 0.625rem;}
         footer .contacto .contenedor .subtitulo {
             font-size: 1.125em;}
         footer .contacto .contenedor .formulario input {
             font-size: 1.125em;
             width: 100%;
-            padding: 1.125em 0.625em;}
+            padding: 1.125rem 0.625rem;}
         footer .contacto .contenedor .formulario textarea {
             font-size: 1.125em;
             width: 100%;
-            margin-bottom: 0.625em;
-            padding: 1.125em 0.625em;}
+            margin-bottom: 0.625rem;
+            padding: 1.125rem 0.625rem;}
         footer .contacto .contenedor .formulario .botonform {
             font-size: 1.125em;
             width: 50%;
-            padding: 0.625em 0.625em;}
+            padding: 0.625rem 0.625rem;}
 /* Pie de pagina */
     footer .redes-sociales {
         margin:auto;}
@@ -327,7 +327,7 @@
                 display: flex;
                 width:100%;
                 flex-flow: column nowrap;
-                margin: 0.3125em auto;
+                margin: 0.3125rem auto;
             }
 }
 

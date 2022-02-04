@@ -30,7 +30,7 @@
                 .main .servicios .titulo {
                     text-align: center;
                     font-size: 2.8125em;
-                    padding: 1.875em 0 1.25em;
+                    padding: 1.875rem 0 1.25rem;
                     margin: 0;
                 }  
                     body.dark .servicios .titulo,
@@ -56,7 +56,7 @@
                         line-height: 1.6875em;
                         max-width: 100em;
                         font-weight: 400;
-                        padding: 0 0em 3.125em;
+                        padding: 0 0 3.125rem;
                         text-align: center;
                     }
                     .main .servicios .text__SobreMi .fa-rocket{
@@ -75,8 +75,8 @@
                     .main .servicios .subtitulo{
                         text-align: center;
                         font-size: 1.875em;
-                        padding: 1.25em 0;
-                        margin: 0em 0em 0em;
+                        padding: 1.25rem 0;
+                        margin: 0;
                     }
                     .main .servicios .contenedor{
                         display: grid;
@@ -87,7 +87,7 @@
                         align-items: center;
                     }
                     .main .servicios .contenedor .cajaserv {
-                        margin: 0em 0em 0.3125em 0em;
+                        margin: 0 0 0.3125em 0;
                         display: flex;
                         box-sizing: border-box;
                         min-height: 3.125em;
@@ -97,13 +97,13 @@
                     .servicio {
                         width: 100%;
                         font-size: 1.125em;
-                        border-top: 0.625em solid #FFD100;
+                        border-top: 0.625rem solid #FFD100;
                         border-radius: 15px;
                         display: flex;
                         align-items: center;
                         align-content: center;
-                        margin: 0.9375em;
-                        padding: 1.25em;
+                        margin: 0.9375rem;
+                        padding: 1.25rem;
                         background: #202020;
                         color: rgba(255,255,255, 0.801)}
                         .servicio:hover {
@@ -121,7 +121,7 @@
                             font-size: 1.25em;
                             line-height: 0em;
                             font-weight: 500;
-                            margin: 0.625em 0;
+                            margin: 0.625rem 0;
                             color: rgba(255,255,255, 0.911);}
         /* Portfolio */
         .main .portfolio {
@@ -151,7 +151,7 @@
                 justify-content: space-between;
                 align-items: center;
                 text-align: center;
-                padding: 3.125em 0em 3.125em 0em;}
+                padding: 3.125rem 0 3.125rem 0;}
                 body.dark .main .portfolio .cajastrabajo .trabajos{
                     background: #000;
                     transition: 0.3s ease all;
@@ -162,7 +162,7 @@
                     transition: 0.3s ease all;
                 }
                 .main .portfolio .cajastrabajo .trabajos:last-child {
-                    margin-bottom: 3.125em;}
+                    margin-bottom: 3.125rem;}
                 .main .portfolio .cajastrabajo .trabajos:hover {
                     border-bottom: 2px solid rgba(255, 255, 255, 0.274);
                     background: #202020;
@@ -175,15 +175,15 @@
                 display: flex;
                 flex-flow: column;
                 align-items: center;
-                margin: 0px 1.25em;}
+                margin: 0 1.25rem;}
             .nombre {
                 color: #ffd100;
-                margin: 1em 0 0.5em;
+                margin: 1rem 0 0.5rem;
                 font-size: 2.1875em;
                 font-weight: bold;}
             .categoria {
                 color: rgba(255, 255, 255, 0.85);
-                margin: 1.25em 0;
+                margin: 1.25rem 0;
                 font-size: 1.375em;
                 font-weight: 500;}
                 body.dark .categoria{
@@ -191,10 +191,10 @@
                 }
             .resumen {
                 color: rgba(255, 255, 255, 0.60);
-                padding-bottom: 1.5625em;
+                padding-bottom: 1.5625rem;
                 font-size: 1.125em;
                 font-weight: 400;
-                 margin: 0.625em 3.125em;}
+                 margin: 0.625rem 3.125rem;}
                  body.dark .resumen{
                      color: rgba(255, 255, 255, 0.85);
                  }
@@ -208,7 +208,7 @@
                 .boton-vp, .boton-pf {
                     border-radius: 33px;
                     border: 2px solid #FFD100; 
-                    padding: 1.0625em 2.5em 1.0625em 2.5em;
+                    padding: 1.0625rem 2.5rem 1.0625rem 2.5rem;
                     margin-top: 0px;
                     cursor: pointer;
                     background: transparent;}

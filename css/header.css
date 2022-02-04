@@ -1,14 +1,20 @@
+/* particles.js */
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
 
+.contenedor-layout{
+    z-index: 99;
+    position: relative;
+}
  /* Header */
  header {
     font-size: 16px;
-    background: #202020;
     padding-bottom: 6.25rem;
     max-height: 87.5em;}
-    body.dark header{
-        transition: 0.5s ease all;
-        background: #000;
-    }
     header .menus {
         margin: 1.25em 0;
         display: flex;
@@ -102,12 +108,10 @@
                             background: #FFD100;
                             color: #000;  
                         }
-        
                             .nav__BtnMode.active::after{
                                 right: 0;
                                 left: unset;               
                             }
-        
                         .btn__img{
                             width: 1.25em;
                             height: 1.25em;
@@ -115,7 +119,6 @@
                             display: block;
                             background: none;
                         }
-        
                             .Sun{
                                 margin-right: 0.3125rem;
                             }
@@ -153,7 +156,6 @@
                             display: inline-block;
                             color: #ffd100;
                         }
-                       
         header .contenedor-header .boton-hd {
             border-radius: 33px;
             cursor: pointer;
@@ -195,13 +197,11 @@
                 cursor: pointer;
                 z-index: 302;
             }
-
             .btn__Up:hover{
                 background: #ffd100;
                 color: #000;
                 transition: 0.5s ease all;
             }
-
             /* animacion */
             @keyframes efectoProfesion {
                 from{

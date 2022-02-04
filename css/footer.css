@@ -5,6 +5,7 @@ footer {
         /* Formulario */
         footer .contacto {
             font-size: 1em;
+            background: #fff;
             padding: 3.125rem 0 6.25rem;}
             body.dark footer .contacto{
                 transition: 0.3s ease all;
@@ -41,7 +42,7 @@ footer {
                 flex-flow: row wrap;
                 justify-content: space-between;}
                 body.dark .contacto .formulario{
-                    transition: 0.3s ease all;
+                    transition: 0.5s ease;
                     background: #000;
                 }
                 footer .contacto .formulario .error{
@@ -92,27 +93,17 @@ footer {
                 border: 2px solid #ffd100; 
                 padding: 0.9375rem 1.875rem 0.9375rem 1.875rem;
                 cursor: pointer;
-                background: #FFD100;}
-                body.dark footer .contacto .formulario .botonform{
-                    background: transparent;
-                    transition: 0.5s ease all;
-                }
+                background: transparent;
+            }
+                footer .contacto .formulario .botonform:hover,
                 body.dark footer .contacto .formulario .botonform:hover{
                     background: #ffd100;
-                    transition: 0.3s ease all;
-                }
-                footer .contacto .formulario .botonform:hover {
+                    transition: 0.5s ease;
                     transform: scale(1.03);
-                    transition: 0.3s ease all;
-                    background: transparent;}
+                }
             /* Pie de Pagina */
             footer .redes-sociales {
-                background: #202020;
                 padding:3.125rem 0 0;}
-                body.dark footer .redes-sociales{
-                    transition: 0.3s ease all;
-                    background: #000;
-                }
                 footer .redes-sociales .contenedor {
                     display: flex;
                     flex-flow: row wrap;
@@ -135,10 +126,10 @@ footer {
                 padding: 0.9375rem 0;
                 font-size: 2.5em;}
                 footer .redes-sociales .github:hover {
-                    transition: 0.3s;
+                    transition: 0.5s;
                     background: #6e5494;}
                 footer .redes-sociales .linkedin:hover {
-                    transition: 0.3s;
+                    transition: 0.5s;
                     background: #0077b5;}
             footer .copyright {
                 color: #fff;   

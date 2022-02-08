@@ -123,7 +123,7 @@
                             color: rgba(255,255,255, 0.911);}
         /* Portfolio */
         .main .portfolio {
-                padding-bottom: 0px;
+                padding-bottom: 30px;
             }
             .main .portfolio.scroll{
                 opacity: 1;
@@ -178,6 +178,15 @@
                 body.dark .categoria{
                     color: #fff;
                 }
+            .proyecto{
+                color: rgba(255, 255, 255, 0.85);
+                margin: 0.625rem 0;
+                font-size: 18px;
+                font-weight: 500;
+            }
+            body.dark .proyecto{
+                color: #fff;
+            }
             .resumen {
                 color: rgba(255, 255, 255, 0.90);
                 padding-bottom: 1.5625rem;
@@ -210,6 +219,12 @@
                         text-transform: capitalize;}
                 .boton-vp.desactivated,
                 .boton-vp.desactivated ~ .boton-vp a{
+                   opacity: 0.5;
+                   cursor:default !important;
+                   pointer-events: none;
+                }
+                .boton-pf.desactivated,
+                .boton-pf.desactivated ~ .boton-pf a{
                    opacity: 0.5;
                    cursor:default !important;
                    pointer-events: none;

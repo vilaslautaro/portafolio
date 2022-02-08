@@ -16,12 +16,13 @@ function creadorUITrabajos(trabajos) {
                         <div class="descripcion">
                             <p class="nombre">${trabajo.nombre}</p>
                             <p class="categoria">${trabajo.categoria}</p>
+                            <p class="proyecto">${trabajo.proyecto}</p> 
                             <p class="resumen">${trabajo.resumen}</p>
                             <div class="botones">
-                                <div class="boton-pf">
+                                <div class="boton-pf ${trabajo.clasepf}">
                                     <a href="${trabajo.pflink}" target="_blank" class="btnVisitar">${trabajo.botonpf}</a>
                                 </div>
-                                <div class="boton-vp ${trabajo.clase}">
+                                <div class="boton-vp ${trabajo.clasevp}">
                                     <a href="${trabajo.vplink}" target="_blank" >${trabajo.botonvp}</a>
                                 </div>
                             </div>
@@ -57,7 +58,7 @@ function creadorUISkills(skills) {
 
 // funcion para el boton modo oscuro / claro
 btnMode.addEventListener('click', function () {
-    // agregamos clase dark al body
+    // agregamos/quitamos clase dark al body
     document.body.classList.toggle('dark');
     // agregamos clase active al boton
     btnMode.classList.toggle('active');

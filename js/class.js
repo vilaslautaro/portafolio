@@ -1,13 +1,15 @@
 class Trabajos{
-    constructor(nombre, imagen, categoria, resumen, botonpf, pflink, botonvp, clase, vplink){
+    constructor(nombre, imagen, categoria, resumen, proyecto, botonpf, pflink, botonvp, clasepf, clasevp, vplink){
         this.nombre = nombre;
         this.imagen = imagen;
         this.categoria = categoria;
         this.resumen = resumen;
+        this.proyecto = proyecto;
         this.botonpf = botonpf;
         this.pflink = pflink;
         this.botonvp = botonvp;
-        this.clase = clase;
+        this.clasepf = clasepf;
+        this.clasevp = clasevp;
         this.vplink = vplink;
     }
 }
@@ -16,7 +18,7 @@ class Trabajos{
 $.get("data/trabajos.json", function(respuesta, estado){
     if(estado == 'success'){
         for (let trabajo of respuesta){
-            trabajos.push(new Trabajos(trabajo.nombre, trabajo.imagen, trabajo.categoria, trabajo.resumen, trabajo.botonpf, trabajo.pflink, trabajo.botonvp, trabajo.clase, trabajo.vplink));
+            trabajos.push(new Trabajos(trabajo.nombre, trabajo.imagen, trabajo.categoria, trabajo.resumen, trabajo.proyecto, trabajo.botonpf, trabajo.pflink, trabajo.botonvp, trabajo.clasepf, trabajo.clasevp, trabajo.vplink));
         }
         creadorUITrabajos(trabajos);
     } else{

@@ -4,10 +4,12 @@
         "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643846228/portfolio/portfolios/criptolaplata2_p5wtio.png",
         "categoria": "HTML - CSS - JQUERY - PHP",
         "resumen": "Realice la maquetacion con Figma, tuve el desafio de usar y aprender PHP (desde la documentación) para lograr conectar la web con la plataforma wordpress por pedido del cliente.",
+        "proyecto": "Trabajo realizado para cliente",
         "botonpf": "Visitar Sitio",
         "pflink" : "https://www.criptolaplata.com",
         "botonvp": "GitHub",
-        "clase": "desactivated",
+        "clasepf": "activated",
+        "clasevp": "desactivated",
         "vplink" : "#"
     },
     {
@@ -15,10 +17,12 @@
         "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643851609/portfolio/portfolios/portfolio_iftxnn.png",
         "categoria": "HTML - CSS - JAVASCRIPT",
         "resumen": "Portfolio personal, con modo oscuro, adaptable a moviles, y animaciones",
+        "proyecto": "Proyecto Propio",
         "botonpf": "Visitar Sitio",
         "pflink" : "https://vilaslautaro.github.io/",
         "botonvp": "GitHub",
-        "clase": "activated",
+        "clasepf": "activated",
+        "clasevp": "activated",
         "vplink" : "https://github.com/vilaslautaro/vilaslautaro.github.io"
     },
     {
@@ -26,20 +30,24 @@
         "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643895366/portfolio/portfolios/cryptomarket_vlbypb.png",
         "categoria": "*Sitio Web en construcción*",
         "resumen": "Ecommerce desarrollado con CSS puro y reactJS.",
+        "proyecto": "Proyecto Propio",
         "botonpf": "Visitar Sitio",
         "pflink" : "#",
         "botonvp": "GitHub",
-        "clase": "activated",
-        "vplink" : "#"
+        "clasepf": "desactivated",
+        "clasevp": "activated",
+        "vplink" : "https://github.com/vilaslautaro/CryptoMarket"
     },
     {
         "nombre": "AutoClick",
         "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643850120/portfolio/portfolios/autoclick_rpqxie.png",
         "categoria": "HTML - CSS - JAVASCRIPT - JQUERY",
-        "resumen": "Ecommerce desarrollado con Jquery, añadimos un carrito de compras que al agregar un producto calcula el precio subtotal, el total, boton de eliminar producto, y filtros para poder filtrar segun nombre, marca, tipo de automovil y/o precio.",
+        "resumen": "Ecommerce desarrollado con Jquery, añadí un carrito de compras que al agregar un producto, le calcula el precio subtotal, el total, con la opcion de eliminar producto, y ademas contiene filtros para poder filtrar segun nombre, marca, tipo de automovil y/o precio.",
+        "proyecto": "Proyecto Propio",
         "botonpf": "Visitar Sitio",
         "pflink" : "https://autoclick.netlify.app/",
         "botonvp": "GitHub",
+        "clasepf": "activated",
         "clase": "activated",
         "vplink" : "https://github.com/vilaslautaro/AutoClick"
     }

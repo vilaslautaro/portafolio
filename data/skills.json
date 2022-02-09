@@ -28,5 +28,15 @@
         "id": "5",
         "titulo": "React",
         "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845931/portfolio/iconos/react_oymrl6.svg"
+    },
+    {
+        "id": "6",
+        "titulo": "Sass",
+        "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845931/portfolio/iconos/sass_rxpkhx.svg"
+    },
+    {
+        "id": "7",
+        "titulo": "Bootstrap",
+        "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845928/portfolio/iconos/bootstrap_bxm0qw.svg"
     }
 ]

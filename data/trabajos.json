@@ -26,19 +26,6 @@
         "vplink" : "https://github.com/vilaslautaro/vilaslautaro.github.io"
     },
     {
-        "nombre": "CryptoMarket ",
-        "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643895366/portfolio/portfolios/cryptomarket_vlbypb.png",
-        "categoria": "*Sitio Web en construcción*",
-        "resumen": "Ecommerce desarrollado con CSS puro y reactJS.",
-        "proyecto": "Proyecto Propio",
-        "botonpf": "Visitar Sitio",
-        "pflink" : "#",
-        "botonvp": "GitHub",
-        "clasepf": "desactivated",
-        "clasevp": "activated",
-        "vplink" : "https://github.com/vilaslautaro/CryptoMarket"
-    },
-    {
         "nombre": "AutoClick",
         "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643850120/portfolio/portfolios/autoclick_rpqxie.png",
         "categoria": "HTML - CSS - JAVASCRIPT - JQUERY",

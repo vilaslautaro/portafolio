@@ -35,7 +35,20 @@
         "pflink" : "https://autoclick.netlify.app/",
         "botonvp": "GitHub",
         "clasepf": "activated",
-        "clase": "activated",
+        "clasevp": "activated",
         "vplink" : "https://github.com/vilaslautaro/AutoClick"
+    },
+    {
+        "nombre": "Calculadora",
+        "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1644622687/Calculadora/calculadorascreen_e6bdhf.png",
+        "categoria": "HTML - CSS - JAVASCRIPT",
+        "resumen": "Aplicacion calculadora, la realicé Javascript Vanilla.",
+        "proyecto": "Proyecto Propio",
+        "botonpf": "Visitar Sitio",
+        "pflink" : "https://aplicacioncalculadora.netlify.app/",
+        "botonvp": "GitHub",
+        "clasepf": "activated",
+        "clasevp": "activated",
+        "vplink" : "https://github.com/vilaslautaro/Calculadora"
     }
 ]

@@ -1,4 +1,16 @@
 document.addEventListener('DOMContentLoaded', function () {
+  // --------------- EVENTOS FORMULARIO ----------------------
+  // agregar evento al formulario
+  form.addEventListener('submit', enviarFormulario);
+  
+  // agregar evento de enter a los inputs del formulario
+  function agregarEventoInputs() {
+    for (const inputForm of inputsForm) {
+        inputForm.addEventListener('keypress', event => event.keyCode === 13 ? enviarFormulario(event) : null)
+    }
+}
+  agregarEventoInputs()
+  
   // ---------------------- EFECTO SCROLL ENLACES MENU ----------------------------------------
   // recorremos los enlaces y le agregamos un evento a cada uno
   for (const enlaceMenu of enlacesMenu) {

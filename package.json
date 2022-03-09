@@ -1,0 +1,15 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "***\r ## vilaslautaro.github.io\r ## Desarrollador Front-end, especializado en:\r #### HTML, CSS, SASS, GIT, JAVASCRIPT, JQUERY, REACT, y librerias CSS, como Bootstrap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "portafolio)"
+  },
+  "author": "Lautaro Vilas",
+  "license": "ISC"
+}

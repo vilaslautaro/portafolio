@@ -1,30 +1,31 @@
-// validacion del formulario
-
-// form.addEventListener('submit', enviarFormulario);
-
-// function enviarFormulario(e) {
-//     e.preventDefault();
-//     if (validarFormulario()) {
-//         console.log('formulario correcto');
-//         let formData = new FormData(form);
-
-//         $.post("form.php", JSON.stringify(formData), function (respuesta, estado) {
-//             console.log(respuesta);
-//             console.log(estado);
-//             if(estado == "success"){
-//                 console.log('formulario enviado a php correctamente');
-//             }
-//         });
-//     }
-// }
 
 
-function validarFormulario() {
+function enviarFormulario(event) {
+    event.preventDefault();
+    if (validarFormulario()) {
+        form.reset()
+        let fecha = `${String(new Date().getDate())}/${String(new Date().getMonth() + 1)}/${new Date().getFullYear()}`;
+        const datosEmail = {
+            Fecha: fecha,
+            Nombre: nameForm.value,
+            Email: email.value,
+            Mensaje: mensaje.value
+        }
+        addDocument(collections(db, 'emails'), datosEmail)
+            .then(() => {
+                console.log(datosEmail)
+            })
+            .catch((error) => {
+                console.log(error)
+            })
+    }
+}
+
+function limpiarErroresFormulario() {
     nameError.innerHTML = ""
     emailError.innerHTML = ""
     mensajeError.innerHTML = ""
 
-    // reset de estilos de errores
     if (nameForm.classList.contains('invalid') == true) {
         nameForm.classList.remove('invalid');
     }
@@ -34,15 +35,14 @@ function validarFormulario() {
     if (mensaje.classList.contains('invalid') == true) {
         mensaje.classList.remove('invalid');
     }
+}
+
+function validarFormulario() {
+    limpiarErroresFormulario()
 
     // si el formulario tiene algun error, ingresamos a verificar cual es
     if (nameForm.validity.valueMissing || nameForm.validity.tooShort || email.validity.valueMissing || email.validity.typeMismatch || email.validity.tooShort || mensaje.validity.valueMissing || mensaje.validity.tooShort) {
 
-        console.log('ingresamos al if de errores');
-
-
-        // si tienen un error, ingresamos la clase invalida y el mensaje del error
-        // validacion campo nombre
         if (nameForm.validity.valueMissing) {
             nameForm.classList.add('invalid');
             nameError.innerHTML = `No has completado este campo`;
@@ -51,7 +51,6 @@ function validarFormulario() {
             nameError.innerHTML = `El nombre ingresado debe tener al menos 4 caracteres, y has introducido ${nameForm.value.length}.`;
         }
 
-        // validacion campo email
         if (email.validity.valueMissing) {
             email.classList.add('invalid');
             emailError.innerHTML = `Campo incompleto`;
@@ -63,7 +62,6 @@ function validarFormulario() {
             emailError.innerHTML = `El correo electrónico debe tener al menos 14 caracteres, y has introducido ${email.value.length}.`;
         }
 
-        // validacion campo mensaje
         if (mensaje.validity.valueMissing) {
             mensaje.classList.add('invalid');
             mensajeError.innerHTML = `No has completado este campo`;

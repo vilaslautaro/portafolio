@@ -11,6 +11,8 @@ const btnMode = document.getElementById('btnMode');
 
 const menu = document.querySelectorAll('.menu')
 
+const imgPerfil = document.getElementById('imgPerfil')
+
 const enlacesMenu = document.querySelectorAll('.menus nav a')
 
 // formulario
@@ -21,4 +23,4 @@ const email = document.getElementById('form__email');
 const emailError = document.getElementById('email__Error');
 const mensaje = document.getElementById('form__mensaje');
 const mensajeError = document.getElementById('mensaje__Error');
-const imgPerfil = document.getElementById('imgPerfil')
+const inputsForm = document.querySelectorAll('#form input, #form textarea')

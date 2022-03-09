@@ -1,54 +1,54 @@
 [
     {
-        "nombre": "Cripto La Plata",
-        "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643846228/portfolio/portfolios/criptolaplata2_p5wtio.png",
-        "categoria": "HTML - CSS - JQUERY - PHP",
-        "resumen": "Realice la maquetacion con Figma, tuve el desafio de usar y aprender PHP (desde la documentación) para lograr conectar la web con la plataforma wordpress por pedido del cliente.",
-        "proyecto": "Trabajo realizado para cliente",
-        "botonpf": "Visitar Sitio",
-        "pflink" : "https://www.criptolaplata.com",
-        "botonvp": "GitHub",
-        "clasepf": "activated",
-        "clasevp": "desactivated",
-        "vplink" : "#"
-    },
-    {
-        "nombre": "Portfolio",
-        "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643851609/portfolio/portfolios/portfolio_iftxnn.png",
-        "categoria": "HTML - CSS - JAVASCRIPT",
-        "resumen": "Portfolio personal, con modo oscuro, adaptable a moviles, y animaciones",
+        "nombre": "CryptoMarket",
+        "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1646845649/portfolio/portfolios/market_cdsc0p.png",
+        "categoria": "HTML - CSS - JAVASCRIPT - REACT",
+        "resumen": "Ecommerce basado en pagos en criptomonedas creado con la tecnologia de ReactJS, utilice firebase como base de datos, trayendo los productos con API.",
         "proyecto": "Proyecto Propio",
         "botonpf": "Visitar Sitio",
-        "pflink" : "https://vilaslautaro.github.io/",
+        "pflink": "https://cripto-market.netlify.app/",
         "botonvp": "GitHub",
         "clasepf": "activated",
         "clasevp": "activated",
-        "vplink" : "https://github.com/vilaslautaro/vilaslautaro.github.io"
+        "vplink": "https://github.com/vilaslautaro/CryptoMarket"
+    },
+    {
+        "nombre": "Portafolio",
+        "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1646844972/portfolio/portfolios/portafolio_lseydg.png",
+        "categoria": "HTML - CSS - JAVASCRIPT",
+        "resumen": "Portafolio personal, desarrollado con Javascript Vanilla, integre modo Oscuro, formulario conectado con Firebase, diseño responsive, y con animaciones",
+        "proyecto": "Proyecto Propio",
+        "botonpf": "Visitar Sitio",
+        "pflink": "https://lautarovilas.com/",
+        "botonvp": "GitHub",
+        "clasepf": "activated",
+        "clasevp": "activated",
+        "vplink": "https://github.com/vilaslautaro/portafolio"
     },
     {
         "nombre": "AutoClick",
         "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643850120/portfolio/portfolios/autoclick_rpqxie.png",
         "categoria": "HTML - CSS - JAVASCRIPT - JQUERY",
-        "resumen": "Ecommerce desarrollado con Jquery, añadí un carrito de compras que al agregar un producto, le calcula el precio subtotal, el total, con la opcion de eliminar producto, y ademas contiene filtros para poder filtrar segun nombre, marca, tipo de automovil y/o precio.",
+        "resumen": "Ecommerce desarrollado con Jquery, contiene un carrito de compras con previsualizacion, y desarrolle filtros que se aplican segun lo seleccionado por el usuario.",
         "proyecto": "Proyecto Propio",
         "botonpf": "Visitar Sitio",
-        "pflink" : "https://autoclick.netlify.app/",
+        "pflink": "https://autoclick.netlify.app/",
         "botonvp": "GitHub",
         "clasepf": "activated",
         "clasevp": "activated",
-        "vplink" : "https://github.com/vilaslautaro/AutoClick"
+        "vplink": "https://github.com/vilaslautaro/AutoClick"
     },
     {
         "nombre": "Calculadora",
-        "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1644622687/Calculadora/calculadorascreen_e6bdhf.png",
+        "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1644622687/portfolio/portfolios/calculadorascreen_e6bdhf.png",
         "categoria": "HTML - CSS - JAVASCRIPT",
-        "resumen": "Aplicacion calculadora, la realicé Javascript Vanilla.",
+        "resumen": "Aplicacion calculadora, la realicé con Javascript Vanilla, cuenta con 3 modos de estilos diferentes y diseño responsive.",
         "proyecto": "Proyecto Propio",
         "botonpf": "Visitar Sitio",
-        "pflink" : "https://aplicacioncalculadora.netlify.app/",
+        "pflink": "https://aplicacioncalculadora.netlify.app/",
         "botonvp": "GitHub",
         "clasepf": "activated",
         "clasevp": "activated",
-        "vplink" : "https://github.com/vilaslautaro/Calculadora"
+        "vplink": "https://github.com/vilaslautaro/Calculadora"
     }
 ]

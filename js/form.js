@@ -1,54 +1,54 @@
 // validacion del formulario
 
-form.addEventListener('submit', enviarFormulario);
+// form.addEventListener('submit', enviarFormulario);
 
-function enviarFormulario(e) {
-    e.preventDefault();
-    if (validarFormulario()) {
-        console.log('formulario correcto');
-        let formData = new FormData(form);
+// function enviarFormulario(e) {
+//     e.preventDefault();
+//     if (validarFormulario()) {
+//         console.log('formulario correcto');
+//         let formData = new FormData(form);
 
-        $.post("form.php", JSON.stringify(formData), function (respuesta, estado) {
-            console.log(respuesta);
-            console.log(estado);
-            if(estado == "success"){
-                console.log('formulario enviado a php correctamente');
-            }
-        });
-    }
-}
+//         $.post("form.php", JSON.stringify(formData), function (respuesta, estado) {
+//             console.log(respuesta);
+//             console.log(estado);
+//             if(estado == "success"){
+//                 console.log('formulario enviado a php correctamente');
+//             }
+//         });
+//     }
+// }
 
 
 function validarFormulario() {
-    $('.error').html('');
+    nameError.innerHTML = ""
+    emailError.innerHTML = ""
+    mensajeError.innerHTML = ""
 
-   
-
-    // si alguno de los input tiene la clase invalid se la quitamos
-    if ($('#form__name').hasClass('invalid') == true) {
-        $('#form__name').removeClass('invalid');
+    // reset de estilos de errores
+    if (nameForm.classList.contains('invalid') == true) {
+        nameForm.classList.remove('invalid');
     }
-    if ($('#form__email').hasClass('invalid') == true) {
-        $('#form__email').removeClass('invalid');
+    if (email.classList.contains('invalid') == true) {
+        email.classList.remove('invalid');
     }
-    if ($('#form__mensaje').hasClass('invalid') == true) {
-        $('#form__mensaje').removeClass('invalid');
+    if (mensaje.classList.contains('invalid') == true) {
+        mensaje.classList.remove('invalid');
     }
 
     // si el formulario tiene algun error, ingresamos a verificar cual es
-    if (name.validity.valueMissing || name.validity.tooShort || email.validity.valueMissing || email.validity.typeMismatch || email.validity.tooShort || mensaje.validity.valueMissing || mensaje.validity.tooShort) {
+    if (nameForm.validity.valueMissing || nameForm.validity.tooShort || email.validity.valueMissing || email.validity.typeMismatch || email.validity.tooShort || mensaje.validity.valueMissing || mensaje.validity.tooShort) {
 
         console.log('ingresamos al if de errores');
 
 
         // si tienen un error, ingresamos la clase invalida y el mensaje del error
         // validacion campo nombre
-        if (name.validity.valueMissing) {
-            name.classList.add('invalid');
+        if (nameForm.validity.valueMissing) {
+            nameForm.classList.add('invalid');
             nameError.innerHTML = `No has completado este campo`;
-        } else if (name.validity.tooShort) {
-            name.classList.add('invalid');
-            nameError.innerHTML = `El nombre ingresado debe tener al menos 4 caracteres, y has introducido ${name.value.length}.`;
+        } else if (nameForm.validity.tooShort) {
+            nameForm.classList.add('invalid');
+            nameError.innerHTML = `El nombre ingresado debe tener al menos 4 caracteres, y has introducido ${nameForm.value.length}.`;
         }
 
         // validacion campo email

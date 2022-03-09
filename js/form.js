@@ -1,23 +1,23 @@
-
+form.addEventListener('submit', enviarFormulario);
 
 function enviarFormulario(event) {
     event.preventDefault();
     if (validarFormulario()) {
-        form.reset()
+        form.reset();
         let fecha = `${String(new Date().getDate())}/${String(new Date().getMonth() + 1)}/${new Date().getFullYear()}`;
         const datosEmail = {
             Fecha: fecha,
             Nombre: nameForm.value,
             Email: email.value,
             Mensaje: mensaje.value
-        }
-        addDocument(collections(db, 'emails'), datosEmail)
-            .then(() => {
-                console.log(datosEmail)
-            })
-            .catch((error) => {
-                console.log(error)
-            })
+        };
+        // ad(collections(db, 'emails'), datosEmail)
+        //     .then(() => {
+        //         console.log(datosEmail);
+        //     })
+        //     .catch((error) => {
+        //         console.log(error);
+        //     });
     }
 }
 

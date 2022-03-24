@@ -156,13 +156,6 @@
                                     font-size: 0.9375em;
                                     text-shadow: 1px 1px 5px #000}
 /* footer */
-    footer .contacto {
-        padding: 0 0 2.5rem;}
-        footer .contacto .titulo {
-            font-size: 2.1875em;}
-        footer .contacto .subtitulo {
-            font-size: 1.5625em;}
-/* Pie de pagina */
     footer .redes-sociales {
         margin:auto;}
         footer .redes-sociales .logo img { 
@@ -284,28 +277,6 @@
                                 font-size: 0.9375em;
                                 text-shadow: 1px 1px 5px #000;}
 /* footer */
-    footer .contacto {
-        padding: 0em;
-        padding-bottom: 3.125rem;}
-        footer .contacto .contenedor .titulo {
-            font-size: 1.875em;
-            margin: 3.125rem 0em 0.625rem;}
-        footer .contacto .contenedor .subtitulo {
-            font-size: 1.125em;}
-        footer .contacto .contenedor .formulario input {
-            font-size: 1.125em;
-            width: 100%;
-            padding: 1.125rem 0.625rem;}
-        footer .contacto .contenedor .formulario textarea {
-            font-size: 1.125em;
-            width: 100%;
-            margin-bottom: 0.625rem;
-            padding: 1.125rem 0.625rem;}
-        footer .contacto .contenedor .formulario .botonform {
-            font-size: 1.125em;
-            width: 50%;
-            padding: 0.625rem 0.625rem;}
-/* Pie de pagina */
     footer .redes-sociales {
         margin:auto;}
         footer .redes-sociales .logo img { 

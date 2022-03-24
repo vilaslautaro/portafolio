@@ -12,8 +12,5 @@
     "url": "https://github.com/vilaslautaro/portafolio"
   },
   "author": "Lautaro Vilas",
-  "license": "ISC",
-  "dependencies": {
-    "firebase": "^9.6.9"
-  }
+  "license": "ISC"
 }

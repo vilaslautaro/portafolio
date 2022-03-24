@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () { 
   // --------------- EVENTOS FORMULARIO ----------------------
   // agregar evento de enter a los inputs del formulario
   function agregarEventoInputs() {

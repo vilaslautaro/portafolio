@@ -1,5 +1,5 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-app.js";
-import { getFirestore, addDoc, collection } from 'https://www.gstatic.com/firebasejs/9.6.8/firebase-firestore.js'
+import { initializeApp } from "firebase/app";
+import { getFirestore } from 'firebase/firestore'
 
   const firebaseConfig = {
     apiKey: process.env.APP_FIREBASE_API_KEY,
@@ -12,8 +12,4 @@ import { getFirestore, addDoc, collection } from 'https://www.gstatic.com/fireba
 
   const app = initializeApp(firebaseConfig);
 
-export const db = getFirestore(app)
-
-export const ad = addDoc()
-
-export const collections = collection()
+  export const db = getFirestore(app)

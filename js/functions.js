@@ -94,4 +94,7 @@ function localStorageModo() {
 }
 localStorageModo();
 
+let fecha = new Date().getFullYear()
+año.innerHTML = fecha;
+
 

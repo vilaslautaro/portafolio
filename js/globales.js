@@ -15,6 +15,8 @@ const imgPerfil = document.getElementById('imgPerfil')
 
 const enlacesMenu = document.querySelectorAll('.menus nav a')
 
+const año = document.getElementById('año')
+
 // formulario
 const form = document.getElementById('form');
 const nameForm = document.getElementById('form__name');

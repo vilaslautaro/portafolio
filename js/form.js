@@ -1,9 +1,11 @@
+import { addDoc, collection } from "firebase/firestore"
+import db from './firebase';
+
 form.addEventListener('submit', enviarFormulario);
 
 function enviarFormulario(event) {
     event.preventDefault();
     if (validarFormulario()) {
-        form.reset();
         let fecha = `${String(new Date().getDate())}/${String(new Date().getMonth() + 1)}/${new Date().getFullYear()}`;
         const datosEmail = {
             Fecha: fecha,
@@ -11,17 +13,20 @@ function enviarFormulario(event) {
             Email: email.value,
             Mensaje: mensaje.value
         };
-        // ad(collections(db, 'emails'), datosEmail)
-        //     .then(() => {
-        //         console.log(datosEmail);
+        // addDoc(collection(db, 'emails'), datosEmail)
+        //     .then((resolve) => {
+        //         form.reset();
+        //         console.log(resolve)
+        //         console.log(datosEmail)
         //     })
-        //     .catch((error) => {
-        //         console.log(error);
-        //     });
+        //     .catch((e) => {
+        //         console.log(e)
+        //     })
     }
 }
 
 function limpiarErroresFormulario() {
+
     nameError.innerHTML = ""
     emailError.innerHTML = ""
     mensajeError.innerHTML = ""
@@ -46,9 +51,12 @@ function validarFormulario() {
         if (nameForm.validity.valueMissing) {
             nameForm.classList.add('invalid');
             nameError.innerHTML = `No has completado este campo`;
+        } else if (nameForm.validity.patternMismatch) {
+            nameForm.classList.add('invalid');
+            nameError.innerHTML = `El nombre ingresado no puede contener numeros o simbolos especiales. Solo texto.`;
         } else if (nameForm.validity.tooShort) {
             nameForm.classList.add('invalid');
-            nameError.innerHTML = `El nombre ingresado debe tener al menos 4 caracteres, y has introducido ${nameForm.value.length}.`;
+            nameError.innerHTML = `El nombre ingresado debe tener al menos 3 caracteres, y has introducido ${nameForm.value.length}.`;
         }
 
         if (email.validity.valueMissing) {

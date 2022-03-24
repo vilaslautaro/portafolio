@@ -1,4 +1,4 @@
-import {add, collect, db} from './firebase';
+import {addDoc, collection, db} from './firebase.js';
 
 form.addEventListener('submit', enviarFormulario);
 
@@ -12,7 +12,7 @@ function enviarFormulario(event) {
             Email: email.value,
             Mensaje: mensaje.value
         };
-        add(collect(db, 'emails'), datosEmail)
+        addDoc(collection(db, 'emails'), datosEmail)
             .then((resolve) => {
                 form.reset();
                 console.log(resolve)

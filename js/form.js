@@ -1,5 +1,4 @@
-import { addDoc, collection } from "firebase/firestore"
-import db from './firebase';
+import {add, collect, db} from './firebase';
 
 form.addEventListener('submit', enviarFormulario);
 
@@ -13,15 +12,15 @@ function enviarFormulario(event) {
             Email: email.value,
             Mensaje: mensaje.value
         };
-        // addDoc(collection(db, 'emails'), datosEmail)
-        //     .then((resolve) => {
-        //         form.reset();
-        //         console.log(resolve)
-        //         console.log(datosEmail)
-        //     })
-        //     .catch((e) => {
-        //         console.log(e)
-        //     })
+        add(collect(db, 'emails'), datosEmail)
+            .then((resolve) => {
+                form.reset();
+                console.log(resolve)
+                console.log(datosEmail)
+            })
+            .catch((e) => {
+                console.log(e)
+            })
     }
 }
 

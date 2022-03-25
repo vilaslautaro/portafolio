@@ -5,12 +5,12 @@
         "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845930/portfolio/iconos/html_jrf6lh.svg"
     },
     {
-        "id": "6",
+        "id": "2",
         "titulo": "Git",
         "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845929/portfolio/iconos/git_wicgcz.svg"
     },
     {
-        "id": "2",
+        "id": "3",
         "titulo": "CSS",
         "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845928/portfolio/iconos/css_gr2egh.svg"
     },
@@ -20,23 +20,33 @@
         "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845931/portfolio/iconos/jquery_ge4f9k.svg"
     },
     {
-        "id": "3",
+        "id": "5",
         "titulo": "Javascript",
         "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845931/portfolio/iconos/javascript_utdpyc.svg"
     },
     {
-        "id": "5",
+        "id": "6",
         "titulo": "React",
         "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845931/portfolio/iconos/react_oymrl6.svg"
     },
     {
-        "id": "6",
+        "id": "7",
         "titulo": "Sass",
         "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845931/portfolio/iconos/sass_rxpkhx.svg"
     },
     {
-        "id": "7",
+        "id": "8",
         "titulo": "Firebase",
         "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1647311443/portfolio/iconos/firebase_ij5kug.png"
+    },
+    {
+        "id": "9",
+        "titulo": "Node",
+        "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1648175271/portfolio/iconos/node_hzi3nh.png"
+    },
+    {
+        "id": "10",
+        "titulo": "MongoDB",
+        "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1647312170/portfolio/iconos/mongodb_lidgjj.png"
     }
 ]

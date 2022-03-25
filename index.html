@@ -27,15 +27,14 @@
             <div id="inicio" class="contenedor">
                 <div class="menus">
                     <nav class="logo">
-                        <a
-                            href="#inicio">
+                        <a href="#inicio">
                             <img src="https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845931/portfolio/logos/logo_nbyixn.svg"
                                 alt="" width="50px">
                         </a>
                     </nav>
                     <nav id="menu" class="menu">
                         <a href="#inicio">Inicio</a>
-                        <a href="#skills">Sobre Mi</a>
+                        <a href="#skills">Sobre mi</a>
                         <a href="#portfolio">Proyectos</a>
                         <a href="#contacto">Contacto</a>
                     </nav>
@@ -78,34 +77,40 @@
         <section class="main">
             <section class="servicios" id="skills">
                 <h3 class="titulo">Sobre mí</h3>
-                <p class="text__SobreMi">Fui emprendedor, y hace un tiempo que me he interiorizado en el mundo IT
-                    más
-                    especificamente en programación <i class="fas fa-rocket"></i><br><br>
-                    Me parece muy apasionante la programacion ya que constantemente me encuentro nuevos desafios, y
-                    es
-                    muy
-                    satisfactorio ver que en el momento de resolverlos puedo aportar valor a la empresa y/o el
-                    cliente,
-                    me
-                    recuerda el espiritu emprendedor.<br><br>
-                    Actualmente soy <span class="subtext__SobreMi">desarrollador Front-End especializado en
-                        React.JS</span>,
-                    a su vez estoy aprendiendo a manejar lenguajes back-end como NodeJS y también desarrollando mis
-                    Soft
-                    Skills, capacitandome en Metodologias Agiles (Scrum).</p>
+                <p class="text__SobreMi">Fui emprendedor durante 4 años, y hace un tiempo decidi dar un giro e incorporarme en el mundo IT <i class="fas fa-rocket"></i><br><br>
+                    Me encuentro apasionado por la programacion ya que constantemente me encuentro con nuevos desafios y
+                    es increible notar que en el momento de resolverlos puedo aportar valor, me recuerda el espiritu emprendedor.<br><br>
+                    Actualmente soy <span class="subtext__SobreMi">desarrollador Front-End especializado en ReactJs</span>,
+                    actualmente estoy aprendiendo Typescript y también desarrollando mis
+                    Soft Skills, capacitandome en Metodologias Agiles (Scrum).</p>
                 <h5 class="subtitulo">Habilidades y Tecnologias</h5>
                 <div class="contenedor" id="contenedorSkills">
-                    <!-- En esta seccion generamos las skills dinamicamente -->
                 </div>
             </section>
             <section class="portfolio">
                 <h3 class="titulo" id="portfolio">Proyectos</h3>
                 <div class="contenedor" id="contenedorTrabajos">
-                    <!-- En esta seccion Generamos la cajaTrabajos y los trabajos dinamicamente -->
                 </div>
             </section>
         </section>
         <footer>
+            <section class="contacto">
+                <div class="contenedor" id="contacto">
+                    <h3 class="titulo"><span>Contáctame</span></h3>
+                    <h4 class="subtitulo">Estoy emocionado por conocer tu propuesta.</h4>
+                    <h5 id="resultadoEnvioForm"></h5>
+                    <form class="formulario" id="form" novalidate>
+                        <input type="text" pattern="^[a-zA-Z\s]+" id="form__name" minlength="3" name="nombre" placeholder="Nombre completo" required>
+                        <span class="error" id="name__Error"></span>
+                        <input type="email" minlength="14" id="form__email" name="correo" placeholder="Correo" required>
+                        <span class="error" id="email__Error"></span>
+                        <textarea name="mensaje" minlength="5" id="form__mensaje"
+                            placeholder="Cuentame en que puedo ayudarte" required></textarea>
+                        <span class="error" id="mensaje__Error"></span>
+                        <button class="botonform" id="form__button" type="submit" value="Enviar">Enviar</button>
+                    </form>
+                </div>
+            </section>
             <section class="redes-sociales">
                 <div class="logo">
                     <img src="https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845933/portfolio/logos/logo_yrhlzc.png"
@@ -131,11 +136,13 @@
     <!-- particles.js libreria animacion particulas -->
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <!-- typed libreria animacion texto-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+        referrerpolicy="no-referrer"></script>
     <script src="js/globales.js"></script>
     <script src="js/functions.js"></script>
     <script src="js/class.js"></script>
     <script src="js/particlesJS.js"></script>
     <script src="js/index.js"></script>
 </body>
+
 </html>

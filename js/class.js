@@ -22,7 +22,6 @@ class Skills {
     }
 }
 
-// function que ejecuta un for of pusheando el archivo JSON enviado como parametro, segun la url que tengamos como 2do parametro
 function recorrerData(data, url){
     if(url === 'data/trabajos.json'){
         for (let trabajo of data) {
@@ -41,16 +40,12 @@ function recorrerData(data, url){
     }
 }
 
-// funcion que utiliza fetch para llamar a url pasada por parametro
 const request = async (url) => {
     const response = await fetch(url)
-    // convertimos la respuesta en formato JSON
     const data = await response.json()
-    // retornamos funcion callback y le enviamos como parametro el JSON y la url
     return recorrerData(data, url)
 }
 
-// pasamos la URL de los archivos JSON como parametro a la funcion request
 request('data/trabajos.json')
 request('data/skills.json')
 

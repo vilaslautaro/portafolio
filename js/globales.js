@@ -17,7 +17,6 @@ const enlacesMenu = document.querySelectorAll('.menus nav a')
 
 const año = document.getElementById('año')
 
-// formulario
 const form = document.getElementById('form');
 const nameForm = document.getElementById('form__name');
 const nameError = document.getElementById('name__Error');

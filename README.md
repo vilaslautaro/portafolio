@@ -2,4 +2,4 @@
 ***
 ## vilaslautaro.github.io
 ## Desarrollador Front-end, especializado en:
-#### HTML, CSS, SASS, GIT, JAVASCRIPT, React
+#### HTML, CSS, SASS, GIT, JAVASCRIPT

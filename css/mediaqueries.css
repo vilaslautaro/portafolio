@@ -1,6 +1,6 @@
 /*-----------------Media Queries -----------------------*/
 /* 56.25em */
-@media screen and (max-width: 56.25em) { 
+@media screen and (max-width: 900px) { 
     * {
         box-sizing: border-box;}   
     header {
@@ -106,8 +106,9 @@
             .main .servicios .contenedor .cajaserv {
                 width: 80%;
                 margin-bottom: 0.625rem;}
-            .main .servicios .contenedor .cajaserv img {
-                width: 4.6875em;}
+            .main .servicios .contenedor .cajaserv .imagenserv {
+                width: 45px;
+            }
             .main .servicios .contenedor .cajaserv h5 {
                 font-size: 1.25em;}
 
@@ -173,7 +174,7 @@
                 align-items: center;
                 margin: 0.3125rem auto;}}
 /* 31.25em */
-@media screen and (max-width: 31.25em) { 
+@media screen and (max-width: 500px) { 
     * {
         box-sizing: border-box;}   
     header {

@@ -13,10 +13,23 @@
         "vplink": "https://github.com/vilaslautaro/CryptoMarket"
     },
     {
+        "nombre": "React Whatsapp",
+        "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1648261337/react-clone-whatsapp/React_wspp_s1rftg.png",
+        "categoria": "HTML - CSS - JAVASCRIPT - REACT",
+        "resumen": "Clone de chat de Whatsapp realizado con React. Utilice firebase como base de datos para renderizar el chat en 'vivo'. Diseño responsive",
+        "proyecto": "Proyecto Propio",
+        "botonpf": "Visitar Sitio",
+        "pflink": "https://clone-react-whatsapp.netlify.app/",
+        "botonvp": "GitHub",
+        "clasepf": "activated",
+        "clasevp": "activated",
+        "vplink": "https://github.com/vilaslautaro/Whatsapp-clone"
+    },
+    {
         "nombre": "Portafolio",
         "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1646844972/portfolio/portfolios/portafolio_lseydg.png",
         "categoria": "HTML - CSS - JAVASCRIPT",
-        "resumen": "Portafolio personal, desarrollado con Javascript Vanilla, toggle modo dark, el formulario de contacto lo conecté con Firebase, diseño responsive.",
+        "resumen": "Portafolio personal, desarrollado con Javascript Vanilla, toggle modo dark, diseño responsive.",
         "proyecto": "Proyecto Propio",
         "botonpf": "Visitar Sitio",
         "pflink": "https://lautarovilas.com/",
@@ -24,19 +37,6 @@
         "clasepf": "activated",
         "clasevp": "activated",
         "vplink": "https://github.com/vilaslautaro/portafolio"
-    },
-    {
-        "nombre": "AutoClick",
-        "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643850120/portfolio/portfolios/autoclick_rpqxie.png",
-        "categoria": "HTML - CSS - JAVASCRIPT - JQUERY",
-        "resumen": "Ecommerce desarrollado con Jquery, contiene un carrito de compras con previsualizacion, y desarrolle filtros que se aplican segun lo seleccionado por el usuario.",
-        "proyecto": "Proyecto Propio",
-        "botonpf": "Visitar Sitio",
-        "pflink": "https://autoclick.netlify.app/",
-        "botonvp": "GitHub",
-        "clasepf": "activated",
-        "clasevp": "activated",
-        "vplink": "https://github.com/vilaslautaro/AutoClick"
     },
     {
         "nombre": "Calculadora",

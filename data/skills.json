@@ -36,17 +36,27 @@
     },
     {
         "id": "8",
+        "titulo": "Bootstrap ",
+        "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1643845928/portfolio/iconos/bootstrap_bxm0qw.svg"
+    },
+    {
+        "id": "9",
         "titulo": "Firebase",
         "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1647311443/portfolio/iconos/firebase_ij5kug.png"
     },
     {
-        "id": "9",
+        "id": "10",
         "titulo": "Node",
         "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1648175271/portfolio/iconos/node_hzi3nh.png"
     },
     {
-        "id": "10",
+        "id": "11",
         "titulo": "MongoDB",
         "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1647312170/portfolio/iconos/mongodb_lidgjj.png"
+    },
+    {
+        "id": "12",
+        "titulo": "Figma",
+        "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1648262804/portfolio/iconos/figma_pjmfk9.png"
     }
 ]

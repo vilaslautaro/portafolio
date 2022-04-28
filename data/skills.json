@@ -58,5 +58,20 @@
         "id": "12",
         "titulo": "Figma",
         "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1648262804/portfolio/iconos/figma_pjmfk9.png"
+    },
+    {
+        "id": "13",
+        "titulo": "Scrum",
+        "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1651171352/portfolio/iconos/scrum_qjftsm.png"
+    },
+    {
+        "id": "14",
+        "titulo": "Materialize UI",
+        "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1651170563/portfolio/iconos/material-ui-1_w88ekn.svg"
+    },
+    {
+        "id": "15",
+        "titulo": "StyledComponents",
+        "icono": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1651171036/portfolio/iconos/styledcomponent_y5gyh4.png"
     }
 ]

@@ -1,5 +1,18 @@
 [
     {
+        "nombre": "Gifsticky",
+        "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1651165307/gifsticky/gifsticky_rny2gy.png",
+        "categoria": "HTML - CSS - JAVASCRIPT - REACT",
+        "resumen": "Buscador de gifs y stickers. Implemente StyledComponents, api intersection observer, seo basico, consumo de api externa, modales realizados con createPortal y para la autenticacion del usuario y el guardado de favoritos utilice firebase.",
+        "proyecto": "Proyecto Propio",
+        "botonpf": "Visitar Sitio",
+        "pflink": "https://gifsticky.vercel.app/",
+        "botonvp": "GitHub",
+        "clasepf": "activated",
+        "clasevp": "activated",
+        "vplink": "https://github.com/vilaslautaro/GifSticky"
+    },
+    {
         "nombre": "CryptoMarket",
         "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1646845649/portfolio/portfolios/market_cdsc0p.png",
         "categoria": "HTML - CSS - JAVASCRIPT - REACT",
@@ -37,18 +50,5 @@
         "clasepf": "activated",
         "clasevp": "activated",
         "vplink": "https://github.com/vilaslautaro/portafolio"
-    },
-    {
-        "nombre": "Calculadora",
-        "imagen": "https://res.cloudinary.com/dn7qsxzdf/image/upload/v1644622687/portfolio/portfolios/calculadorascreen_e6bdhf.png",
-        "categoria": "HTML - CSS - JAVASCRIPT",
-        "resumen": "Aplicacion calculadora, la realicé con Javascript Vanilla, cuenta con 3 modos de estilos diferentes y diseño responsive.",
-        "proyecto": "Proyecto Propio",
-        "botonpf": "Visitar Sitio",
-        "pflink": "https://aplicacioncalculadora.netlify.app/",
-        "botonvp": "GitHub",
-        "clasepf": "activated",
-        "clasevp": "activated",
-        "vplink": "https://github.com/vilaslautaro/Calculadora"
     }
 ]
